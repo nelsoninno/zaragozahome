@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#8a2a1f" />
+
+  <title data-i18n="meta.title">Zaragoza Home</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="" />
+
+  <meta property="og:title" data-i18n-attr="content:meta.title" content="" />
+  <meta property="og:description" data-i18n-attr="content:meta.description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zaragozahome.org/" />
+  <meta property="og:image" content="https://zaragozahome.org/img/optimized/two-friends-1600.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238a2a1f'/%3E%3Cpath d='M32 14c-7 10-11 17-11 23a11 11 0 0 0 22 0c0-6-4-13-11-23z' fill='%23f5e6cf'/%3E%3C/svg%3E" />
+
+  <link rel="preload" as="image" href="img/optimized/two-friends-1600.webp" fetchpriority="high" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main" data-i18n="a11y.skip_to_main">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Zaragoza Home — home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 4c-4 6-7 11-7 15a7 7 0 0 0 14 0c0-4-3-9-7-15z" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title" data-i18n="footer.brand_title">Zaragoza Home</span>
+          <span class="brand-sub" data-i18n="footer.brand_sub">Nursing Home · El Salvador</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#story" data-i18n="nav.story">Their story</a>
+        <a href="#watch" data-i18n="nav.watch">Watch</a>
+        <a href="#crisis" data-i18n="nav.crisis">The crisis</a>
+        <a href="#faces" data-i18n="nav.faces">The faces</a>
+        <a href="#help" data-i18n="nav.help">How to help</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+          <span class="lang-toggle-current" data-i18n="meta.lang_label">English</span>
+          <span class="lang-toggle-sep" aria-hidden="true">·</span>
+          <span class="lang-toggle-other" data-i18n="meta.lang_other">Español</span>
+        </button>
+        <button type="button" class="btn btn-primary btn-sm donate-trigger" data-i18n="nav.donate">Donate</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="hero-media">
+        <picture>
+          <source srcset="img/optimized/two-friends-800.webp" media="(max-width: 720px)" type="image/webp" />
+          <img src="img/optimized/two-friends-1600.webp"
+               alt="Two elderly friends sitting together at Asilo de Ancianos Zaragoza, holding handmade thank-you notes."
+               width="1600" height="1200"
+               fetchpriority="high" />
+        </picture>
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light" data-i18n="hero.eyebrow">Asilo de Ancianos · Zaragoza, El Salvador</p>
+        <h1 class="hero-headline" data-i18n="hero.headline">Fifty elders.
+Months without water.</h1>
+        <p class="hero-subhead" data-i18n="hero.subhead">For decades they paid $9 a month for water...</p>
+        <div class="hero-cta">
+          <button type="button" class="btn btn-primary btn-lg donate-trigger" data-i18n="hero.cta_primary">Donate now</button>
+          <a href="#story" class="btn btn-ghost btn-lg" data-i18n="hero.cta_secondary">Read their story</a>
+        </div>
+      </div>
+      <a href="#story" class="hero-scroll" aria-label="Scroll to story">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 16.5 5.5 10l1.4-1.4L12 13.7l5.1-5.1 1.4 1.4z"/></svg>
+      </a>
+    </section>
+
+    <section class="section section-cream" id="story">
+      <div class="container two-col">
+        <div class="two-col-text">
+          <p class="eyebrow" data-i18n="story.eyebrow">Who we are</p>
+          <h2 class="section-heading" data-i18n="story.heading">A home for those with nowhere else</h2>
+          <p class="lede" data-i18n="story.body_1">In a small town called Zaragoza...</p>
+          <p data-i18n="story.body_2">The staff and volunteers...</p>
+        </div>
+        <figure class="two-col-figure">
+          <picture>
+            <source srcset="img/optimized/joy-with-dog-800.webp" media="(max-width: 720px)" type="image/webp" />
+            <img src="img/optimized/joy-with-dog-1600.webp"
+                 alt="An elderly woman at Asilo de Ancianos Zaragoza laughing while holding a small dog."
+                 width="900" height="1600"
+                 loading="lazy" />
+          </picture>
+          <figcaption data-i18n="story.caption">Two friends at Asilo de Ancianos Zaragoza...</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-darker" id="watch">
+      <div class="container">
+        <div class="section-intro section-intro-light">
+          <p class="eyebrow eyebrow-light" data-i18n="video.eyebrow">Watch their story</p>
+          <h2 class="section-heading section-heading-light" data-i18n="video.heading">Two minutes inside the home</h2>
+          <p class="section-lede section-lede-light" data-i18n="video.body">A short documentary from the staff at Asilo de Ancianos Zaragoza.</p>
+        </div>
+        <div class="video-wrap">
+          <div class="video-player" id="video-player">
+            <picture>
+              <source srcset="img/optimized/video-poster-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img class="video-poster" src="img/optimized/video-poster-1600.webp" alt="The painted red entrance to Asilo de Ancianos Zaragoza." loading="lazy" />
+            </picture>
+            <button type="button" class="video-play" id="video-play" aria-label="Play video">
+              <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+              <span class="video-play-label" data-i18n="video.play">Play the story</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="crisis">
+      <div class="container">
+        <div class="crisis-intro">
+          <p class="eyebrow eyebrow-light" data-i18n="crisis.eyebrow">What happened</p>
+          <h2 class="section-heading section-heading-light" data-i18n="crisis.heading">A $9 bill became a $15,000 catastrophe</h2>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value" data-i18n="crisis.stat_1_value">$9</span>
+            <span class="stat-label" data-i18n="crisis.stat_1_label">The historic monthly bill</span>
+          </div>
+          <div class="stat stat-accent">
+            <span class="stat-value" data-i18n="crisis.stat_2_value">$15,000+</span>
+            <span class="stat-label" data-i18n="crisis.stat_2_label">The impossible debt</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" data-i18n="crisis.stat_3_value">TBD</span>
+            <span class="stat-label" data-i18n="crisis.stat_3_label">Months without running water</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" data-i18n="crisis.stat_4_value">50+</span>
+            <span class="stat-label" data-i18n="crisis.stat_4_label">Residents affected</span>
+          </div>
+        </div>
+
+        <div class="crisis-body">
+          <p data-i18n="crisis.body_1">In the span of two years...</p>
+          <p data-i18n="crisis.body_2">More than a century of normal bills...</p>
+          <p class="lede lede-light" data-i18n="crisis.body_3">For months now, the taps have been dry...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="faces">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow" data-i18n="faces.eyebrow">Who you're helping</p>
+          <h2 class="section-heading" data-i18n="faces.heading">The faces of Asilo de Ancianos Zaragoza</h2>
+          <p class="section-lede" data-i18n="faces.body">Every donation reaches a real person...</p>
+        </div>
+        <ul class="gallery">
+          <li class="gallery-item gallery-tall">
+            <picture>
+              <source srcset="img/optimized/laughing-resident-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/laughing-resident-1600.webp" alt="A resident laughing and holding a thank-you note." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source srcset="img/optimized/floral-smile-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/floral-smile-1600.webp" alt="A resident in a floral dress smiling with her thank-you note." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source srcset="img/optimized/grateful-portrait-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/grateful-portrait-1600.webp" alt="A resident in a blue shirt holding a thank-you card." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item gallery-tall">
+            <picture>
+              <source srcset="img/optimized/thank-you-portrait-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/thank-you-portrait-1600.webp" alt="A resident holding up a thank-you card." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source srcset="img/optimized/wheelchair-dignity-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/wheelchair-dignity-1600.webp" alt="Two residents resting — one in a wheelchair." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source srcset="img/optimized/visitors-day-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/visitors-day-1600.webp" alt="Residents with a visitor during a recent visit to the home." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source srcset="img/optimized/community-moment-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/community-moment-1600.webp" alt="A quiet community moment among residents." loading="lazy" />
+            </picture>
+          </li>
+          <li class="gallery-item gallery-tall">
+            <picture>
+              <source srcset="img/optimized/two-friends-alt-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/two-friends-alt-1600.webp" alt="Two friends sitting together at the home." loading="lazy" />
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="help">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow" data-i18n="help.eyebrow">Make a difference</p>
+          <h2 class="section-heading" data-i18n="help.heading">Three ways to help right now</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="28" height="28"><path fill="currentColor" d="M16 28S5 21 5 13a7 7 0 0 1 11-5 7 7 0 0 1 11 5c0 8-11 15-11 15z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="help.card_1_title">Donate</h3>
+            <p class="card-body" data-i18n="help.card_1_body">Every contribution...</p>
+            <button type="button" class="btn btn-primary donate-trigger" data-i18n="help.card_1_cta">Give now</button>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="28" height="28"><path fill="currentColor" d="M22 4a4 4 0 0 0-3.9 5l-7.2 4.1a4 4 0 1 0 0 5.8l7.2 4.1A4 4 0 1 0 19.4 21l-7.2-4.1a4 4 0 0 0 0-2L19.4 11A4 4 0 1 0 22 4z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="help.card_2_title">Share</h3>
+            <p class="card-body" data-i18n="help.card_2_body">The story is the fundraiser...</p>
+            <button type="button" class="btn btn-ghost share-btn" data-i18n="help.card_2_cta">Share the page</button>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="28" height="28"><path fill="currentColor" d="M6 28V8l10-4 10 4v20H20v-8h-8v8z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="help.card_3_title">Visit</h3>
+            <p class="card-body" data-i18n="help.card_3_body">If you're in El Salvador...</p>
+            <a href="mailto:hello@zaragozahome.org" class="btn btn-ghost" data-i18n="help.card_3_cta">Get in touch</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="donate">
+      <div class="container donate-cta">
+        <p class="eyebrow eyebrow-light" data-i18n="donate_section.eyebrow">The goal</p>
+        <h2 class="section-heading section-heading-light" data-i18n="donate_section.heading">Together we can turn the water back on</h2>
+        <p class="section-lede section-lede-light" data-i18n="donate_section.body">Every dollar moves us closer...</p>
+        <button type="button" class="btn btn-light btn-lg donate-trigger" data-i18n="donate_section.cta">Donate to Asilo de Ancianos Zaragoza</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22"><path d="M16 4c-4 6-7 11-7 15a7 7 0 0 0 14 0c0-4-3-9-7-15z" fill="currentColor"/></svg>
+        </span>
+        <p class="footer-tagline" data-i18n="footer.tagline">Help us bring water — and dignity — back...</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact_heading">Contact</h4>
+        <a href="mailto:hello@zaragozahome.org" data-i18n="footer.contact_email">hello@zaragozahome.org</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.follow_heading">Follow the story</h4>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+      <p class="footer-credits" data-i18n="footer.credits">© 2026 Asilo de Ancianos Zaragoza.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="donate-modal" role="dialog" aria-modal="true" aria-labelledby="donate-modal-title" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="m12 10.6 5.3-5.3 1.4 1.4L13.4 12l5.3 5.3-1.4 1.4L12 13.4l-5.3 5.3-1.4-1.4L10.6 12 5.3 6.7l1.4-1.4z"/></svg>
+      </button>
+      <h3 id="donate-modal-title" class="modal-title" data-i18n="modal.title">Choose how to give</h3>
+      <p class="modal-subtitle" data-i18n="modal.subtitle">Pick the option that works best for you...</p>
+      <p class="modal-note" data-i18n="modal.tbd_note">Donation links coming soon...</p>
+
+      <ul class="modal-options">
+        <li class="modal-option">
+          <h4 data-i18n="modal.option_gofundme_title">GoFundMe</h4>
+          <p data-i18n="modal.option_gofundme_body">Quickest for international donors...</p>
+          <a class="btn btn-primary" href="#" data-i18n="modal.option_gofundme_cta">Open campaign</a>
+        </li>
+        <li class="modal-option">
+          <h4 data-i18n="modal.option_paypal_title">PayPal</h4>
+          <p data-i18n="modal.option_paypal_body">One-time or recurring...</p>
+          <a class="btn btn-primary" href="#" data-i18n="modal.option_paypal_cta">Send via PayPal</a>
+        </li>
+        <li class="modal-option">
+          <h4 data-i18n="modal.option_bank_title">Bank transfer (El Salvador)</h4>
+          <p data-i18n="modal.option_bank_body">For local donors...</p>
+          <a class="btn btn-primary" href="#" data-i18n="modal.option_bank_cta">View details</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

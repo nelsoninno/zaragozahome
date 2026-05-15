@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Asilo de Ancianos Zaragoza — Ayúdanos a devolverles el agua a 50 ancianos olvidados",
+    "description": "Durante décadas, este pequeño asilo de ancianos en Zaragoza, El Salvador pagó $9 al mes por el agua. Una fuga oculta generó una deuda de más de $15,000. Cincuenta ancianos llevan meses sin agua corriente. Ayúdanos a abrir el grifo de nuevo.",
+    "lang_label": "Español",
+    "lang_other": "English"
+  },
+  "nav": {
+    "story": "Su historia",
+    "watch": "Ver",
+    "crisis": "La crisis",
+    "faces": "Los rostros",
+    "help": "Cómo ayudar",
+    "donate": "Donar"
+  },
+  "hero": {
+    "eyebrow": "Asilo de Ancianos · Zaragoza, El Salvador",
+    "headline": "Cincuenta ancianos.\nMeses sin agua.",
+    "subhead": "Durante décadas pagaron $9 al mes por el agua. Luego, una fuga oculta, una factura imposible y un sistema que les dio la espalda. Ayúdanos a devolverles el agua —y la dignidad— al Asilo de Ancianos Zaragoza.",
+    "cta_primary": "Donar ahora",
+    "cta_secondary": "Leer su historia"
+  },
+  "video": {
+    "eyebrow": "Mira su historia",
+    "heading": "Dos minutos dentro del asilo",
+    "body": "Un breve documental del Asilo de Ancianos Zaragoza. Subtítulos en español e inglés.",
+    "play": "Ver el video",
+    "loading": "Cargando…"
+  },
+  "story": {
+    "eyebrow": "Quiénes somos",
+    "heading": "Un hogar para quienes no tienen otro lugar",
+    "body_1": "En un pequeño pueblo llamado Zaragoza, en el centro de El Salvador, más de 50 ancianos y ancianas viven juntos en una casa modesta que se ha convertido en su familia. Muchos llegaron sin nadie — sin familia que pudiera cuidarlos, sin ahorros, sin otro lugar en el mundo al que ir.",
+    "body_2": "El personal y los voluntarios que mantienen el hogar lo hacen con lo poco que llega de vecinos, iglesias y de quienes alguna vez escuchan la historia. Durante décadas, eso fue suficiente para mantener la luz, la cocina y los grifos funcionando. Hasta ahora.",
+    "caption": "Dos amigas del Asilo de Ancianos Zaragoza — sus tarjetas de agradecimiento por una visita reciente."
+  },
+  "crisis": {
+    "eyebrow": "Lo que pasó",
+    "heading": "Una factura de $9 se convirtió en una catástrofe de $15,000",
+    "body_1": "En el lapso de dos años algo se rompió. La factura del agua — siempre alrededor de $9 al mes — comenzó a subir. Y a subir. Para cuando alguien pudo entender qué estaba pasando, el asilo ya debía más de quince mil dólares a la empresa de agua.",
+    "body_2": "Más de un siglo de facturas normales, exigidas en solo veinticuatro meses. En algún lugar bajo tierra, el agua sale por una fuga de la que nadie quiere hacerse responsable. La empresa insiste en que el asilo debe pagar. El asilo no puede.",
+    "body_3": "Desde hace meses, los grifos están secos. Cincuenta ancianos se bañan con cubetas, beben de galones que traen los vecinos y esperan una justicia que no llega.",
+    "stat_1_value": "$9",
+    "stat_1_label": "La factura mensual histórica",
+    "stat_2_value": "$15,000+",
+    "stat_2_label": "La deuda imposible",
+    "stat_3_value": "TBD",
+    "stat_3_label": "Meses sin agua corriente",
+    "stat_4_value": "50+",
+    "stat_4_label": "Residentes afectados"
+  },
+  "faces": {
+    "eyebrow": "A quiénes ayudas",
+    "heading": "Los rostros del Asilo de Ancianos Zaragoza",
+    "body": "Cada donación llega a una persona real — una abuela, un hermano, un amigo. Aquí algunos de los ancianos que llaman a este lugar su hogar."
+  },
+  "help": {
+    "eyebrow": "Haz la diferencia",
+    "heading": "Tres maneras de ayudar ahora mismo",
+    "card_1_title": "Donar",
+    "card_1_body": "Cada aporte — pequeño o grande — nos acerca a pagar la deuda y abrir el grifo de nuevo.",
+    "card_1_cta": "Donar ahora",
+    "card_2_title": "Compartir",
+    "card_2_body": "La historia es la campaña. Comparte esta página con cualquiera que pueda interesarse — cada vez que se comparte, el alcance crece.",
+    "card_2_cta": "Compartir la página",
+    "card_3_title": "Visitar",
+    "card_3_body": "Si estás en El Salvador, ven a conocerlos. Trae agua, trae comida, trae tu tiempo. Te van a recordar.",
+    "card_3_cta": "Escríbenos"
+  },
+  "donate_section": {
+    "eyebrow": "La meta",
+    "heading": "Juntos podemos volver a abrir el agua",
+    "body": "Cada dólar nos acerca a pagar esta deuda y restablecer el agua corriente en el Asilo de Ancianos Zaragoza. El 100% de las donaciones llega directamente al asilo y a sus residentes.",
+    "cta": "Donar al Asilo de Ancianos Zaragoza"
+  },
+  "modal": {
+    "title": "Elige cómo donar",
+    "subtitle": "Escoge la opción que mejor te funcione. Cada canal llega directo al asilo.",
+    "option_gofundme_title": "GoFundMe",
+    "option_gofundme_body": "El más rápido para donantes internacionales. Acepta tarjeta en la mayoría de monedas.",
+    "option_gofundme_cta": "Abrir campaña",
+    "option_paypal_title": "PayPal",
+    "option_paypal_body": "Donación única o recurrente. Ideal para quienes tienen cuenta PayPal.",
+    "option_paypal_cta": "Enviar por PayPal",
+    "option_bank_title": "Transferencia bancaria (El Salvador)",
+    "option_bank_body": "Para donantes locales. Pronto publicaremos los datos de la cuenta.",
+    "option_bank_cta": "Ver datos",
+    "close": "Cerrar",
+    "tbd_note": "Enlaces de donación próximamente. Estamos terminando de configurar los canales — vuelve en unos días."
+  },
+  "footer": {
+    "tagline": "Ayúdanos a devolverles el agua —y la dignidad— a cincuenta ancianos en Zaragoza, El Salvador.",
+    "contact_heading": "Contacto",
+    "contact_email": "hola@zaragozahome.org",
+    "follow_heading": "Sigue la historia",
+    "credits": "© 2026 Asilo de Ancianos Zaragoza. Hecho con cariño.",
+    "brand_title": "Asilo Zaragoza",
+    "brand_sub": "Zaragoza · El Salvador"
+  },
+  "a11y": {
+    "lang_toggle": "Cambiar idioma",
+    "open_donate": "Abrir opciones de donación",
+    "close_modal": "Cerrar opciones de donación",
+    "skip_to_main": "Saltar al contenido principal"
+  },
+  "share": {
+    "title": "Asilo de Ancianos Zaragoza",
+    "text": "Cincuenta ancianos. Meses sin agua. Una factura de $9 al mes se convirtió en una deuda de $15,000. Ayúdanos a abrir el grifo de nuevo.",
+    "copied": "Enlace copiado al portapapeles"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Zaragoza Home — Help us bring water back to 50 forgotten elders",
+    "description": "For decades, a small nursing home in Zaragoza, El Salvador paid $9/month for water. Then a hidden leak created a $15,000 debt. Fifty elders have been without running water for months. Help us turn the taps back on.",
+    "lang_label": "English",
+    "lang_other": "Español"
+  },
+  "nav": {
+    "story": "Their story",
+    "watch": "Watch",
+    "crisis": "The crisis",
+    "faces": "The faces",
+    "help": "How to help",
+    "donate": "Donate"
+  },
+  "hero": {
+    "eyebrow": "Asilo de Ancianos · Zaragoza, El Salvador",
+    "headline": "Fifty elders.\nMonths without water.",
+    "subhead": "For decades they paid $9 a month for water. Then a hidden leak, an impossible bill, and a system that turned its back. Help us bring water — and dignity — back to Asilo de Ancianos Zaragoza.",
+    "cta_primary": "Donate now",
+    "cta_secondary": "Read their story"
+  },
+  "video": {
+    "eyebrow": "Watch their story",
+    "heading": "Two minutes inside the home",
+    "body": "A short documentary from the staff at Asilo de Ancianos Zaragoza. Subtitles in English and Spanish.",
+    "play": "Play the story",
+    "loading": "Loading…"
+  },
+  "story": {
+    "eyebrow": "Who we are",
+    "heading": "A home for those with nowhere else",
+    "body_1": "In a small town called Zaragoza, in central El Salvador, more than 50 elderly men and women live together in a modest house that has become their family. Many arrived with no one — no family who could care for them, no savings, no other place in the world to go.",
+    "body_2": "The staff and volunteers who keep the home running do so on what little comes in from neighbors, churches, and people who happen to hear the story. For decades, that has been enough to keep the lights on, the kitchen running, and the taps flowing. Until now.",
+    "caption": "Two friends at Asilo de Ancianos Zaragoza — their thank-you notes for a recent visit."
+  },
+  "crisis": {
+    "eyebrow": "What happened",
+    "heading": "A $9 bill became a $15,000 catastrophe",
+    "body_1": "In the span of two years, something broke. The water bill — always around $9 a month — began climbing. And climbing. By the time anyone could understand what was happening, the home owed more than fifteen thousand dollars to the water utility.",
+    "body_2": "More than a century of normal bills, demanded in just twenty-four months. Somewhere underground, water has been pouring out of a leak that no one will take responsibility for. The utility insists the home must pay. The home cannot.",
+    "body_3": "For months now, the taps have been dry. Fifty elders are bathing from buckets, drinking from gallons brought by neighbors, and waiting for a justice that hasn't come.",
+    "stat_1_value": "$9",
+    "stat_1_label": "The historic monthly bill",
+    "stat_2_value": "$15,000+",
+    "stat_2_label": "The impossible debt",
+    "stat_3_value": "TBD",
+    "stat_3_label": "Months without running water",
+    "stat_4_value": "50+",
+    "stat_4_label": "Residents affected"
+  },
+  "faces": {
+    "eyebrow": "Who you're helping",
+    "heading": "The faces of Asilo de Ancianos Zaragoza",
+    "body": "Every donation reaches a real person — a grandmother, a brother, a friend. Here are a few of the elders who call this home theirs."
+  },
+  "help": {
+    "eyebrow": "Make a difference",
+    "heading": "Three ways to help right now",
+    "card_1_title": "Donate",
+    "card_1_body": "Every contribution — small or large — moves us closer to clearing the debt and turning the water back on.",
+    "card_1_cta": "Give now",
+    "card_2_title": "Share",
+    "card_2_body": "The story is the fundraiser. Share this page with anyone who might care — every share extends the reach.",
+    "card_2_cta": "Share the page",
+    "card_3_title": "Visit",
+    "card_3_body": "If you're in El Salvador, come meet them. Bring water, bring food, bring time. They will remember you.",
+    "card_3_cta": "Get in touch"
+  },
+  "donate_section": {
+    "eyebrow": "The goal",
+    "heading": "Together we can turn the water back on",
+    "body": "Every dollar moves us closer to clearing this debt and restoring running water to Asilo de Ancianos Zaragoza. 100% of donations go directly to the home and its residents.",
+    "cta": "Donate to Asilo de Ancianos Zaragoza"
+  },
+  "modal": {
+    "title": "Choose how to give",
+    "subtitle": "Pick the option that works best for you. Every channel reaches the home directly.",
+    "option_gofundme_title": "GoFundMe",
+    "option_gofundme_body": "Quickest for international donors. Card payments accepted in most currencies.",
+    "option_gofundme_cta": "Open campaign",
+    "option_paypal_title": "PayPal",
+    "option_paypal_body": "One-time or recurring. Best for donors with a PayPal account.",
+    "option_paypal_cta": "Send via PayPal",
+    "option_bank_title": "Bank transfer (El Salvador)",
+    "option_bank_body": "For local donors. Account details will be provided here shortly.",
+    "option_bank_cta": "View details",
+    "close": "Close",
+    "tbd_note": "Donation links coming soon. We're finalizing the channels — check back in a few days."
+  },
+  "footer": {
+    "tagline": "Help us bring water — and dignity — back to fifty elders in Zaragoza, El Salvador.",
+    "contact_heading": "Contact",
+    "contact_email": "hello@zaragozahome.org",
+    "follow_heading": "Follow the story",
+    "credits": "© 2026 Asilo de Ancianos Zaragoza. Built with care.",
+    "brand_title": "Zaragoza Home",
+    "brand_sub": "Nursing Home · El Salvador"
+  },
+  "a11y": {
+    "lang_toggle": "Switch language",
+    "open_donate": "Open donation options",
+    "close_modal": "Close donation options",
+    "skip_to_main": "Skip to main content"
+  },
+  "share": {
+    "title": "Zaragoza Home",
+    "text": "Fifty elders. Months without water. A $9 monthly bill became a $15,000 debt. Help us turn the taps back on.",
+    "copied": "Link copied to clipboard"
+  }
+}

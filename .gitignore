@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts (none yet — pure static site)
+node_modules/
+dist/
+
+# Dev / scratch files from working session
+js/main-test.js
+js/main-v2.js
+sync-test.txt
+img/video-frames/
+
+# Source images — keep these only locally; webp variants are deployed.
+# Comment these lines out if you want originals in the repo too.
+img/source/
+img/new images/
