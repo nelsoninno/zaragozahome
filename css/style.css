@@ -678,3 +678,180 @@ p { margin: 0 0 1em; }
 .modal-option .btn { align-self: flex-start; margin-top: 4px; }
 
 body.modal-open { overflow: hidden; }
+
+/* ---- v2 additions: crisis photo strip, team grid, donate options ---- */
+
+.crisis-photos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin: 56px 0;
+}
+@media (min-width: 760px) {
+  .crisis-photos { grid-template-columns: repeat(3, 1fr); gap: 22px; }
+}
+.crisis-photo {
+  margin: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: rgba(253, 250, 245, 0.05);
+}
+.crisis-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+.crisis-photo figcaption {
+  padding: 14px 18px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--c-cream-200);
+  line-height: 1.45;
+  background: rgba(0,0,0,0.18);
+}
+
+.gallery-named .gallery-item { aspect-ratio: 3 / 4; }
+.gallery-name {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  padding: 5px 12px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--c-cream-50);
+  background: rgba(20, 14, 10, 0.72);
+  backdrop-filter: blur(4px);
+  border-radius: var(--radius-pill);
+  z-index: 1;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+@media (min-width: 720px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+}
+.team-card {
+  background: var(--c-white);
+  border: 1px solid var(--c-cream-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.team-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.team-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.team-meta { padding: 20px 22px 22px; }
+.team-name {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--c-ink-900);
+}
+.team-role {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-terra-700);
+  margin: 0;
+}
+
+.donate-cta-wrap { max-width: 880px; margin: 0 auto; text-align: center; }
+.donate-cta-wrap .eyebrow { text-align: center; }
+.donate-cta-wrap .section-lede { margin: 0 auto 40px; }
+
+.donate-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: left;
+}
+@media (min-width: 880px) {
+  .donate-options { grid-template-columns: 1.2fr 1fr; gap: 28px; align-items: stretch; }
+}
+.donate-option {
+  background: rgba(253, 250, 245, 0.07);
+  border: 1px solid rgba(253, 250, 245, 0.18);
+  border-radius: var(--radius-lg);
+  padding: 28px 28px 26px;
+  display: flex; flex-direction: column;
+}
+.donate-option-local { background: rgba(253, 250, 245, 0.10); }
+.donate-option-title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: var(--c-cream-50);
+}
+.donate-option-subtitle {
+  font-size: 14px;
+  color: var(--c-cream-200);
+  margin: 0 0 18px;
+}
+.donate-option-note {
+  font-size: 14px;
+  color: var(--c-cream-100);
+  margin: 0 0 16px;
+  line-height: 1.5;
+}
+.bank-details {
+  display: grid;
+  grid-template-columns: minmax(120px, max-content) 1fr;
+  gap: 8px 18px;
+  margin: 0;
+  font-size: 14px;
+}
+.bank-details dt {
+  font-weight: 600;
+  color: var(--c-cream-200);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 11px;
+  align-self: center;
+}
+.bank-details dd {
+  margin: 0;
+  color: var(--c-cream-50);
+  font-size: 15px;
+  word-break: break-word;
+}
+.bank-details a { color: var(--c-cream-50); text-decoration: underline; text-underline-offset: 2px; }
+.bank-account-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.bank-account-number {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--c-gold);
+}
+.copy-account {
+  font-size: 12px;
+  padding: 6px 12px;
+  border: 1px solid rgba(253, 250, 245, 0.4);
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+.copy-account.is-copied {
+  background: var(--c-gold);
+  color: var(--c-ink-900);
+  border-color: var(--c-gold);
+}
