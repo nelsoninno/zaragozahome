@@ -1,5 +1,5 @@
 /* ================================================================
-   Zaragoza Home — main.js  (v3)
+   Zaragoza Home, main.js  (v3)
    Bilingual EN/ES, donate flow, video click-to-load, lightbox,
    sticky header.
    ================================================================ */
@@ -9,8 +9,8 @@
   const LOCALES = {
     en: {
       meta: {
-        title: "Zaragoza Home — Help 38 elders bring water back",
-        description: "For decades they paid $9 a month for water at Hogar de Ancianos Giuseppe Angelucci in Zaragoza, El Salvador. Then bills jumped to $750 — and kept stacking. Today the home owes over $15,000, and water runs only two days a week. 38 elders need your help.",
+        title: "Zaragoza Home, Help 38 elders bring water back",
+        description: "For decades they paid $9 a month for water at Hogar de Ancianos Giuseppe Angelucci in Zaragoza, El Salvador. Then bills jumped to $750, and kept stacking. Today the home owes over $15,000, and water runs only two days a week. 38 elders need your help.",
         lang_label: "English",
         lang_other: "Español"
       },
@@ -21,17 +21,17 @@
       hero: {
         eyebrow: "Hogar de Ancianos Giuseppe Angelucci · Zaragoza, La Libertad, El Salvador",
         headline: "Thirty-eight elders.\nTwo days of water a week.",
-        subhead: "For decades they paid $9 a month for water. In January 2024 the bill arrived at $750. Then another. And another. Today the debt sits at over $15,000 — for water they barely have.",
+        subhead: "For decades they paid $9 a month for water. In January 2024 the bill arrived at $750. Then another. And another. Today the debt sits at over $15,000, for water they barely have.",
         cta_primary: "Donate now",
         cta_secondary: "Read their story"
       },
       story: {
         eyebrow: "Who we are",
         heading: "A home for those with nowhere else",
-        name_note: "On its official sign, this place is called “Hogar de Ancianos Giuseppe Angelucci” — its registered name, after the founders. Those founders are no longer involved. Today, the donors and community who keep the home alive simply call it Zaragoza Home — a name that fits what it has become.",
-        body_1: "In a small town called Zaragoza, in the department of La Libertad, El Salvador, thirty-eight elderly men and women live together at Hogar de Ancianos Giuseppe Angelucci — a small home officially recognized as serving a vulnerable community. The land was given to a local church on a 25-year loan. The building itself was built by the Embassy of Taiwan in El Salvador. For decades, what came in from neighbors, churches, and the occasional volunteer was enough to keep the lights on and the kitchen running.",
-        body_2: "Many residents arrived with no one. Only three of the thirty-eight are visited by their families. The other thirty-five spend their last years entirely in the care of the seven-person team that runs the home — and the donors and volunteers who keep it going. One resident was left at the entrance under a tree, badly hurt, and never claimed. This is the quiet reality. The home is not asking for charity. It is asking that the water keeps running, and that someone keeps caring.",
-        caption: "The entrance to Hogar de Ancianos Giuseppe Angelucci — Zaragoza, La Libertad."
+        name_note: "On its official sign, this place is called “Hogar de Ancianos Giuseppe Angelucci”, its registered name, after the founders. Those founders are no longer involved. Today, the donors and community who keep the home alive simply call it Zaragoza Home, a name that fits what it has become.",
+        body_1: "In a small town called Zaragoza, in the department of La Libertad, El Salvador, thirty-eight elderly men and women live together at Hogar de Ancianos Giuseppe Angelucci, a small home officially recognized as serving a vulnerable community. The building itself was built by the Embassy of Taiwan in El Salvador. For decades, what came in from neighbors, churches, and the occasional volunteer was enough to keep the lights on and the kitchen running.",
+        body_2: "Many residents arrived with no one. Only three of the thirty-eight are visited by their families. The other thirty-five spend their last years entirely in the care of the seven-person team that runs the home, and the donors and volunteers who keep it going. One resident was left at the entrance under a tree, badly hurt, and never claimed. This is the quiet reality. The home is not asking for charity. It is asking that the water keeps running, and that someone keeps caring.",
+        caption: "The entrance to Hogar de Ancianos Giuseppe Angelucci, Zaragoza, La Libertad."
       },
       video: {
         eyebrow: "Watch their story",
@@ -42,22 +42,22 @@
       crisis: {
         eyebrow: "What happened",
         heading: "Stable for ten years. Impossible since January 2024.",
-        intro: "ANDA replaced the home's water meter in January 2024. The next bill arrived at $731.67 — 74× what they had paid the month before. The bills have not stopped climbing since.",
-        body_1: "For more than a decade, the bill was around $9.90 a month. Then, in January 2024, ANDA replaced the meter. The next invoice was $731.67. The one after that, $564. And on, and on. Today, the home owes more than $15,000.",
-        body_2: "In March 2025, ANDA's own inspector confirmed it on paper: water reaches the home only two days a week. The pump is broken. Residents bathe with buckets and gallons brought by neighbors. They have no laundry machine. No pool. No irrigation.",
-        body_3: "And yet ANDA keeps billing. The November 2025 bill records 314 cubic meters of water — more than four times what is physically possible for forty-five people with two-day-a-week access. Even if every resident took a 30-minute shower every day, the numbers would not add up. Somewhere underground, water is leaving the system before it reaches the home. ANDA insists the home must pay. The home survives on $250 a month.",
-        body_4: "And there is a second injustice in the rate itself. Most homes in El Salvador pay between $0.21 and $0.30 per cubic meter of water — under residential or bulk-condominium tariffs. The home is billed at $3.40/m³, the commercial maximum tier. That is roughly 15× the rate a typical condominium pays for the same water. A nursing home for thirty-eight elderly people, with water two days a week, is being billed at the same rate as a hotel laundry.",
+        intro: "The water utility replaced the home's meter in January 2024. The very next bill was dozens of times higher, and the bills have not stopped climbing since.",
+        body_1: "For more than a decade, the bill was around $9 a month. Then, in January 2024, the water utility replaced the meter. The bills have not stopped climbing since. Today, the home owes more than $15,000.",
+        body_2: "An official inspection in March 2025 confirmed it on paper: water reaches the home only two days a week. Residents bathe with buckets and gallons brought by neighbors. There is no laundry machine, no pool, no irrigation.",
+        body_3: "And yet the bills keep climbing. The most recent invoice alone is over $1,000, for water that, by the utility's own inspection, does not even reach the home most days. Somewhere underground, water appears to be leaving the system before it gets there. The utility insists the home must pay.",
+        body_4: "Most homes in El Salvador pay between $0.21 and $0.30 per cubic meter of water, under residential or bulk-condominium tariffs. The home is billed at $3.40/m³, the commercial maximum tier. That is roughly 15× the rate a typical condominium pays for the same water. A nursing home for thirty-eight elderly people, with water two days a week, is being billed at the same rate as a hotel laundry.",
         stat_1_value: "$9", stat_1_label: "The historic monthly bill",
         stat_2_value: "$15,000+", stat_2_label: "Accumulated debt since Jan 2024",
         stat_3_value: "2", stat_3_label: "Days of water per week",
         stat_4_value: "38", stat_4_label: "Residents affected",
-        photo_1_caption: "The pila — the home's main water reservoir. Mostly empty.",
+        photo_1_caption: "The pila, the home's main water reservoir. Mostly empty.",
         photo_2_caption: "Buckets and basins used in place of running water.",
-        photo_3_caption: "The water meter ANDA has been billing against.",
-        chart_title: "What ANDA has billed each month",
-        chart_subtitle: "Monthly water bills · Apr 2023 to Nov 2025 · Source: ANDA invoices",
+        photo_3_caption: "The water meter being billed against.",
+        chart_title: "What the home has been billed each month",
+        chart_subtitle: "Monthly water bills · Apr 2023 to Nov 2025",
         chart_stable_label: "Stable for a decade",
-        chart_fair_note: "Dashed line: what a fair monthly maximum would be (~$241), if the home used as much water as humanly possible at the real $3.40/m³ rate.",
+        chart_fair_note: "Dashed line: a fair monthly bill at regular residential use, around $67.",
         chart_pre_label: "Before the meter change",
         chart_after_label: "After the meter change",
         chart_meter_event: "Meter replaced",
@@ -69,11 +69,11 @@
       place: {
         eyebrow: "The place",
         heading: "Painted walls. Tended plants. A place worth keeping.",
-        body: "The home runs on what comes in. Walls have been painted. Plants are tended. The kitchen is clean. Most beds were recently replaced. The team takes pride in what they have. What remains is maintenance — every wall, every chair, every corner needs ongoing care. With your help, the home keeps its dignity.",
+        body: "The home runs on what comes in. Walls have been painted. Plants are tended. The kitchen is clean. Most beds were recently replaced. The team takes pride in what they have. What remains is maintenance, every wall, every chair, every corner needs ongoing care. With your help, the home keeps its dignity.",
         photo_1_caption: "The courtyard, with the tree the residents sit under most afternoons.",
-        photo_2_caption: "An afternoon in the common room — residents, staff, and volunteers together.",
+        photo_2_caption: "An afternoon in the common room, residents, staff, and volunteers together.",
         photo_3_caption: "A walkway lined with flowers. The older medical beds at the far end are gradually being replaced.",
-        photo_4_caption: "A side wall and the front gate — quiet, well-kept.",
+        photo_4_caption: "A side wall and the front gate, quiet, well-kept.",
         photo_5_caption: "Furniture that has earned its rest. Maintenance never stops.",
         photo_6_caption: "The wheelchairs that get the residents through the day."
       },
@@ -84,7 +84,7 @@
       faces: {
         eyebrow: "Who you're helping",
         heading: "Thirty-eight names. Eight you can meet today.",
-        body: "Every donation reaches a real person — a grandmother, a brother, a friend. Tap any face to see them larger. The other thirty live just past this gallery."
+        body: "Every donation reaches a real person, a grandmother, a brother, a friend. Tap any face to see them larger. The other thirty live just past this gallery."
       },
       team: {
         eyebrow: "The hands that keep this place running",
@@ -102,7 +102,7 @@
         card_1_body: "Every dollar moves us closer to clearing the water debt and keeping the home running.",
         card_1_cta: "Give now",
         card_2_title: "Share",
-        card_2_body: "The story is the fundraiser. Share this page with anyone who might care — every share extends the reach.",
+        card_2_body: "The story is the fundraiser. Share this page with anyone who might care, every share extends the reach.",
         card_2_cta: "Share the page",
         card_3_title: "Visit",
         card_3_body: "If you're in El Salvador, come meet them. Bring water, bring food, bring time. They will remember you.",
@@ -126,11 +126,11 @@
         local_copy: "Copy account number",
         local_copied: "Copied!",
         international_title: "International donors (US, EU, others)",
-        international_subtitle: "GoFundMe and PayPal channels — coming soon.",
+        international_subtitle: "GoFundMe and PayPal channels, coming soon.",
         international_status: "We are finalizing these. Check back in a few days, or message Carolina on WhatsApp and we'll guide you."
       },
       footer: {
-        tagline: "Help us bring water — and dignity — back to thirty-eight elders in Zaragoza, El Salvador.",
+        tagline: "Help us bring water, and dignity, back to thirty-eight elders in Zaragoza, El Salvador.",
         contact_heading: "Contact",
         contact_whatsapp_label: "WhatsApp · Carolina García",
         contact_whatsapp_value: "+503 7457 0984",
@@ -158,7 +158,7 @@
 
     es: {
       meta: {
-        title: "Hogar Giuseppe Angelucci — Ayúdanos a devolverles el agua a 38 ancianos",
+        title: "Hogar Giuseppe Angelucci, Ayúdanos a devolverles el agua a 38 ancianos",
         description: "Durante décadas pagaron $9 al mes por el agua en el Hogar de Ancianos Giuseppe Angelucci, en Zaragoza, La Libertad. En enero de 2024 las facturas subieron a $750 y siguieron acumulándose. Hoy la deuda supera los $15,000 y el agua llega solo dos días a la semana. 38 ancianos necesitan tu ayuda.",
         lang_label: "Español",
         lang_other: "English"
@@ -170,17 +170,17 @@
       hero: {
         eyebrow: "Hogar de Ancianos Giuseppe Angelucci · Zaragoza, La Libertad, El Salvador",
         headline: "Treinta y ocho ancianos.\nDos días de agua por semana.",
-        subhead: "Durante décadas pagaron $9 al mes por el agua. En enero de 2024 llegó una factura de $750. Luego otra. Y otra. Hoy la deuda supera los $15,000 — por un agua que casi no tienen.",
+        subhead: "Durante décadas pagaron $9 al mes por el agua. En enero de 2024 llegó una factura de $750. Luego otra. Y otra. Hoy la deuda supera los $15,000, por un agua que casi no tienen.",
         cta_primary: "Donar ahora",
         cta_secondary: "Leer su historia"
       },
       story: {
         eyebrow: "Quiénes somos",
         heading: "Un hogar para quienes no tienen otro lugar",
-        name_note: "En su rótulo oficial, este lugar se llama “Hogar de Ancianos Giuseppe Angelucci” — su nombre registrado, en honor a sus fundadores. Esos fundadores ya no están involucrados. Hoy los donantes y la comunidad que mantienen vivo el hogar simplemente lo llaman Zaragoza Home — un nombre que refleja lo que se ha convertido.",
-        body_1: "En un pequeño pueblo llamado Zaragoza, en el departamento de La Libertad, El Salvador, treinta y ocho ancianos y ancianas viven juntos en el Hogar de Ancianos Giuseppe Angelucci — un hogar oficialmente reconocido por atender a una comunidad vulnerable. El terreno fue dado en comodato a una iglesia local por 25 años. El edificio fue construido por la Embajada de Taiwán en El Salvador. Durante décadas, lo que llegaba de vecinos, iglesias y voluntarios alcanzaba para mantener la luz y la cocina.",
-        body_2: "Muchos llegaron sin nadie. Solo tres de los treinta y ocho son visitados por sus familias. Los otros treinta y cinco pasan sus últimos años enteramente al cuidado del equipo de siete personas que sostiene el hogar — y de los donantes y voluntarios que lo hacen posible. Uno fue dejado bajo un árbol en la entrada, malherido, y nunca lo reclamaron. Esta es la realidad. El hogar no pide caridad. Pide que el agua vuelva a correr, y que alguien siga cuidando.",
-        caption: "La entrada del Hogar de Ancianos Giuseppe Angelucci — Zaragoza, La Libertad."
+        name_note: "En su rótulo oficial, este lugar se llama “Hogar de Ancianos Giuseppe Angelucci”, su nombre registrado, en honor a sus fundadores. Esos fundadores ya no están involucrados. Hoy los donantes y la comunidad que mantienen vivo el hogar simplemente lo llaman Zaragoza Home, un nombre que refleja lo que se ha convertido.",
+        body_1: "En un pequeño pueblo llamado Zaragoza, en el departamento de La Libertad, El Salvador, treinta y ocho ancianos y ancianas viven juntos en el Hogar de Ancianos Giuseppe Angelucci, un hogar oficialmente reconocido por atender a una comunidad vulnerable. El edificio fue construido por la Embajada de Taiwán en El Salvador. Durante décadas, lo que llegaba de vecinos, iglesias y voluntarios alcanzaba para mantener la luz y la cocina.",
+        body_2: "Muchos llegaron sin nadie. Solo tres de los treinta y ocho son visitados por sus familias. Los otros treinta y cinco pasan sus últimos años enteramente al cuidado del equipo de siete personas que sostiene el hogar, y de los donantes y voluntarios que lo hacen posible. Uno fue dejado bajo un árbol en la entrada, malherido, y nunca lo reclamaron. Esta es la realidad. El hogar no pide caridad. Pide que el agua vuelva a correr, y que alguien siga cuidando.",
+        caption: "La entrada del Hogar de Ancianos Giuseppe Angelucci, Zaragoza, La Libertad."
       },
       video: {
         eyebrow: "Mira su historia",
@@ -191,22 +191,22 @@
       crisis: {
         eyebrow: "Lo que pasó",
         heading: "Estable durante diez años. Imposible desde enero de 2024.",
-        intro: "ANDA reemplazó el medidor de agua del hogar en enero de 2024. La siguiente factura llegó a $731.67 — 74× lo que habían pagado el mes anterior. Las facturas no han parado de subir desde entonces.",
-        body_1: "Durante más de una década, la factura rondaba los $9.90 al mes. Entonces, en enero de 2024, ANDA reemplazó el medidor. La siguiente factura fue de $731.67. La siguiente, $564. Y así, una tras otra. Hoy el hogar debe más de $15,000.",
-        body_2: "En marzo de 2025, la inspección de ANDA confirmó por escrito que el agua llega al hogar solo dos días por semana. La bomba está descompuesta. Los residentes se bañan con cubetas y galones que traen los vecinos. No tienen lavadora. No hay piscina. No hay riego.",
-        body_3: "Y aun así ANDA sigue facturando. La factura de noviembre de 2025 registra 314 metros cúbicos de agua — más de cuatro veces lo que es físicamente posible para cuarenta y cinco personas con acceso de solo dos días por semana. Incluso si cada residente se duchara 30 minutos al día, los números no cuadran. En algún punto bajo tierra, el agua se escapa antes de llegar al hogar. ANDA insiste en que el hogar debe pagar. El hogar sobrevive con $250 al mes.",
-        body_4: "Y hay una segunda injusticia en la tarifa misma. La mayoría de los hogares en El Salvador paga entre $0.21 y $0.30 por metro cúbico de agua — bajo tarifas residenciales o de condominio en bloque. Al hogar le cobran $3.40/m³, el tope de la tarifa comercial. Eso es aproximadamente 15× la tarifa que paga un condominio típico por la misma agua. Un asilo para treinta y ocho ancianos, con agua dos días a la semana, está siendo facturado a la misma tarifa que la lavandería de un hotel.",
+        intro: "La empresa de agua reemplazó el medidor del hogar en enero de 2024. La siguiente factura fue decenas de veces más alta, y las facturas no han parado de subir desde entonces.",
+        body_1: "Durante más de una década, la factura rondaba los $9 al mes. Entonces, en enero de 2024, la empresa de agua reemplazó el medidor. Las facturas no han parado de subir desde entonces. Hoy el hogar debe más de $15,000.",
+        body_2: "Una inspección oficial en marzo de 2025 confirmó por escrito que el agua llega al hogar solo dos días por semana. Los residentes se bañan con cubetas y galones que traen los vecinos. No hay lavadora, ni piscina, ni riego.",
+        body_3: "Y aun así las facturas siguen subiendo. La última factura sola supera los $1,000, por un agua que, según la inspección de la propia empresa, ni siquiera llega al hogar la mayoría de los días. En algún punto bajo tierra, el agua se está escapando antes de llegar al lugar. La empresa insiste en que el hogar debe pagar.",
+        body_4: "La mayoría de los hogares en El Salvador paga entre $0.21 y $0.30 por metro cúbico de agua, bajo tarifas residenciales o de condominio en bloque. Al hogar le cobran $3.40/m³, el tope de la tarifa comercial. Eso es aproximadamente 15× la tarifa que paga un condominio típico por la misma agua. Un asilo para treinta y ocho ancianos, con agua dos días a la semana, está siendo facturado a la misma tarifa que la lavandería de un hotel.",
         stat_1_value: "$9", stat_1_label: "La factura mensual histórica",
         stat_2_value: "$15,000+", stat_2_label: "Deuda acumulada desde ene-2024",
         stat_3_value: "2", stat_3_label: "Días de agua por semana",
         stat_4_value: "38", stat_4_label: "Residentes afectados",
-        photo_1_caption: "La pila — el principal depósito de agua del hogar. Casi siempre vacía.",
+        photo_1_caption: "La pila, el principal depósito de agua del hogar. Casi siempre vacía.",
         photo_2_caption: "Cubetas y guacales que reemplazan al agua corriente.",
-        photo_3_caption: "El medidor de agua sobre el que ANDA cobra esta deuda.",
-        chart_title: "Lo que ANDA ha facturado cada mes",
-        chart_subtitle: "Facturas mensuales de agua · Abr 2023 a Nov 2025 · Fuente: facturas de ANDA",
+        photo_3_caption: "El medidor de agua sobre el que se cobra esta deuda.",
+        chart_title: "Lo que se le ha facturado al hogar cada mes",
+        chart_subtitle: "Facturas mensuales de agua · Abr 2023 a Nov 2025",
         chart_stable_label: "Estable durante una década",
-        chart_fair_note: "Línea punteada: un máximo mensual justo (~$241) si el hogar consumiera todo lo humanamente posible al precio real de $3.40/m³.",
+        chart_fair_note: "Línea punteada: una factura mensual justa al uso residencial regular, alrededor de $67.",
         chart_pre_label: "Antes del cambio de medidor",
         chart_after_label: "Después del cambio de medidor",
         chart_meter_event: "Medidor reemplazado",
@@ -218,11 +218,11 @@
       place: {
         eyebrow: "El lugar",
         heading: "Paredes pintadas. Plantas cuidadas. Un lugar que vale la pena cuidar.",
-        body: "El hogar funciona con lo que llega. Las paredes están pintadas. Las plantas se cuidan. La cocina se mantiene limpia. Casi todas las camas se reemplazaron recientemente. El equipo se enorgullece de lo que tienen. Lo que queda es mantenimiento — cada pared, cada silla, cada rincón necesita cuidado constante. Con tu ayuda, el hogar conserva su dignidad.",
+        body: "El hogar funciona con lo que llega. Las paredes están pintadas. Las plantas se cuidan. La cocina se mantiene limpia. Casi todas las camas se reemplazaron recientemente. El equipo se enorgullece de lo que tienen. Lo que queda es mantenimiento, cada pared, cada silla, cada rincón necesita cuidado constante. Con tu ayuda, el hogar conserva su dignidad.",
         photo_1_caption: "El patio, con el árbol bajo el que los residentes se sientan casi todas las tardes.",
-        photo_2_caption: "Una tarde en el área común — residentes, equipo y voluntarios juntos.",
+        photo_2_caption: "Una tarde en el área común, residentes, equipo y voluntarios juntos.",
         photo_3_caption: "Un corredor bordeado de flores. Las camas hospitalarias del fondo se están reemplazando poco a poco.",
-        photo_4_caption: "Una pared lateral y el portón delantero — tranquilo, bien cuidado.",
+        photo_4_caption: "Una pared lateral y el portón delantero, tranquilo, bien cuidado.",
         photo_5_caption: "Muebles que se han ganado el descanso. El mantenimiento nunca termina.",
         photo_6_caption: "Las sillas de ruedas que acompañan a los residentes todos los días."
       },
@@ -233,7 +233,7 @@
       faces: {
         eyebrow: "A quiénes ayudas",
         heading: "Treinta y ocho nombres. Ocho que puedes conocer hoy.",
-        body: "Cada donación llega a una persona real — una abuela, un hermano, un amigo. Toca cualquier rostro para verlo más grande. Los otros treinta viven justo detrás de esta galería."
+        body: "Cada donación llega a una persona real, una abuela, un hermano, un amigo. Toca cualquier rostro para verlo más grande. Los otros treinta viven justo detrás de esta galería."
       },
       team: {
         eyebrow: "Las manos que sostienen este lugar",
@@ -251,7 +251,7 @@
         card_1_body: "Cada dólar nos acerca a pagar la deuda del agua y a mantener el hogar funcionando.",
         card_1_cta: "Donar ahora",
         card_2_title: "Compartir",
-        card_2_body: "La historia es la campaña. Comparte esta página con cualquiera que pueda interesarse — cada vez que se comparte, el alcance crece.",
+        card_2_body: "La historia es la campaña. Comparte esta página con cualquiera que pueda interesarse, cada vez que se comparte, el alcance crece.",
         card_2_cta: "Compartir la página",
         card_3_title: "Visitar",
         card_3_body: "Si estás en El Salvador, ven a conocerlos. Trae agua, trae comida, trae tiempo. Te van a recordar.",
@@ -275,11 +275,11 @@
         local_copy: "Copiar número de cuenta",
         local_copied: "¡Copiado!",
         international_title: "Donantes internacionales (EE.UU., Europa, otros)",
-        international_subtitle: "Canales de GoFundMe y PayPal — próximamente.",
+        international_subtitle: "Canales de GoFundMe y PayPal, próximamente.",
         international_status: "Estamos terminando de configurar estos canales. Vuelve en unos días o escríbele a Carolina por WhatsApp y te guiamos."
       },
       footer: {
-        tagline: "Ayúdanos a devolverles el agua —y la dignidad— a treinta y ocho ancianos en Zaragoza, El Salvador.",
+        tagline: "Ayúdanos a devolverles el agua,y la dignidada treinta y ocho ancianos en Zaragoza, El Salvador.",
         contact_heading: "Contacto",
         contact_whatsapp_label: "WhatsApp · Carolina García",
         contact_whatsapp_value: "+503 7457 0984",
@@ -553,7 +553,7 @@
 
     const yTicks = [0, 250, 500, 750, 1000];
     const yPos = v => MT + innerH - (v / maxY) * innerH;
-    const fairMax = 241;
+    const fairMax = 67;
     const fairY = yPos(fairMax);
 
     let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crisis-chart-title" class="crisis-chart-svg">';
@@ -617,7 +617,7 @@
     // X-axis baseline
     svg += '<line x1="' + ML + '" y1="' + (MT + innerH) + '" x2="' + (W - MR) + '" y2="' + (MT + innerH) + '" class="chart-axis" />';
 
-    // X-axis year labels — group bars by year and show year under midpoint
+    // X-axis year labels, group bars by year and show year under midpoint
     const yearGroups = { 2023: [], 2024: [], 2025: [] };
     CHART_DATA.forEach(function (d, i) {
       const yr = '20' + d.label.slice(-2);
