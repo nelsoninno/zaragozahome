@@ -41,17 +41,27 @@
       },
       crisis: {
         eyebrow: "What happened",
-        heading: "A $9 bill became a $15,000 catastrophe",
-        body_1: "For decades, the water bill was around $9 a month. Then, in January 2024, an invoice arrived for $750. The next one was higher. Then higher again. ANDA — the Salvadoran water utility — pointed at an underground leak that nobody could find.",
-        body_2: "Three different inspections, including one led by the home's director Carolina, confirmed it: there is no leak. The residents flush toilets with buckets. They bathe from gallons brought by neighbors. The home does not have a swimming pool. As Suzi, one of the home's longest-standing donors, put it: \"You'd need a giant water park, filling and emptying it over and over, to use that much water.\"",
-        body_3: "And yet, in roughly eighteen months, the home owes more than fifteen thousand dollars — the equivalent of one hundred and thirty-four years of normal water bills, stacked into a year and a half. Three different ANDA directors have refused to forgive the debt. Meanwhile, water reaches the taps only two days a week.",
+        heading: "Stable for ten years. Impossible since January 2024.",
+        intro: "ANDA replaced the home's water meter in January 2024. The next bill arrived at $731.67 — 74× what they had paid the month before. The bills have not stopped climbing since.",
+        body_1: "For more than a decade, the bill was around $9.90 a month. Then, in January 2024, ANDA replaced the meter. The next invoice was $731.67. The one after that, $564. And on, and on. Today, the home owes more than $15,000.",
+        body_2: "In March 2025, ANDA's own inspector confirmed it on paper: water reaches the home only two days a week. The pump is broken. Residents bathe with buckets and gallons brought by neighbors. They have no laundry machine. No pool. No irrigation.",
+        body_3: "And yet ANDA keeps billing. The November 2025 bill records 314 cubic meters of water — more than four times what is physically possible for forty-five people with two-day-a-week access. Even if every resident took a 30-minute shower every day, the numbers would not add up. Somewhere underground, water is leaving the system before it reaches the home. ANDA insists the home must pay. The home survives on $250 a month.",
         stat_1_value: "$9", stat_1_label: "The historic monthly bill",
         stat_2_value: "$15,000+", stat_2_label: "Accumulated debt since Jan 2024",
         stat_3_value: "2", stat_3_label: "Days of water per week",
         stat_4_value: "38", stat_4_label: "Residents affected",
         photo_1_caption: "The pila — the home's main water reservoir. Mostly empty.",
         photo_2_caption: "Buckets and basins used in place of running water.",
-        photo_3_caption: "The water meter ANDA has been billing against."
+        photo_3_caption: "The water meter ANDA has been billing against.",
+        chart_title: "What ANDA has billed each month",
+        chart_subtitle: "Monthly water bills · Apr 2023 to Nov 2025 · Source: ANDA invoices",
+        chart_pre_label: "Before the meter change",
+        chart_after_label: "After the meter change",
+        chart_meter_event: "Meter replaced",
+        chart_fair_max: "What a fair monthly maximum would be (~$241)",
+        chart_axis_year_2023: "2023",
+        chart_axis_year_2024: "2024",
+        chart_axis_year_2025: "2025"
       },
       place: {
         eyebrow: "The place",
@@ -60,7 +70,7 @@
         photo_1_caption: "The courtyard, with the tree the residents sit under most afternoons.",
         photo_2_caption: "An afternoon in the common room — residents, staff, and volunteers together.",
         photo_3_caption: "A walkway lined with flowers. The older medical beds at the far end are gradually being replaced.",
-        photo_4_caption: "A side wall and the back gate — quiet, well-kept.",
+        photo_4_caption: "A side wall and the front gate — quiet, well-kept.",
         photo_5_caption: "Furniture that has earned its rest. Maintenance never stops.",
         photo_6_caption: "The wheelchairs that get the residents through the day."
       },
@@ -177,17 +187,27 @@
       },
       crisis: {
         eyebrow: "Lo que pasó",
-        heading: "Una factura de $9 se convirtió en una catástrofe de $15,000",
-        body_1: "Durante décadas, la factura del agua rondaba los $9 al mes. En enero de 2024 llegó una factura de $750. La siguiente, más alta. La siguiente, más todavía. ANDA — la empresa de agua — señaló una fuga subterránea que nadie pudo encontrar.",
-        body_2: "Tres inspecciones distintas, una de ellas dirigida por la directora del hogar, Carolina, confirmaron lo mismo: no hay fuga. Los residentes echan agua en los inodoros con cubeta. Se bañan con galones traídos por los vecinos. El hogar no tiene piscina. Como dijo Suzi, una de las donantes más constantes: \"Tendrían que tener un parque de agua gigante, llenarlo y vaciarlo una y otra vez, para gastar tanta agua.\"",
-        body_3: "Y aun así, en aproximadamente dieciocho meses, el hogar debe más de quince mil dólares — el equivalente a ciento treinta y cuatro años de facturas normales, acumulados en un año y medio. Tres directores distintos de ANDA se han negado a perdonar la deuda. Mientras tanto, el agua llega a los grifos solo dos días a la semana.",
+        heading: "Estable durante diez años. Imposible desde enero de 2024.",
+        intro: "ANDA reemplazó el medidor de agua del hogar en enero de 2024. La siguiente factura llegó a $731.67 — 74× lo que habían pagado el mes anterior. Las facturas no han parado de subir desde entonces.",
+        body_1: "Durante más de una década, la factura rondaba los $9.90 al mes. Entonces, en enero de 2024, ANDA reemplazó el medidor. La siguiente factura fue de $731.67. La siguiente, $564. Y así, una tras otra. Hoy el hogar debe más de $15,000.",
+        body_2: "En marzo de 2025, la inspección de ANDA confirmó por escrito que el agua llega al hogar solo dos días por semana. La bomba está descompuesta. Los residentes se bañan con cubetas y galones que traen los vecinos. No tienen lavadora. No hay piscina. No hay riego.",
+        body_3: "Y aun así ANDA sigue facturando. La factura de noviembre de 2025 registra 314 metros cúbicos de agua — más de cuatro veces lo que es físicamente posible para cuarenta y cinco personas con acceso de solo dos días por semana. Incluso si cada residente se duchara 30 minutos al día, los números no cuadran. En algún punto bajo tierra, el agua se escapa antes de llegar al hogar. ANDA insiste en que el hogar debe pagar. El hogar sobrevive con $250 al mes.",
         stat_1_value: "$9", stat_1_label: "La factura mensual histórica",
         stat_2_value: "$15,000+", stat_2_label: "Deuda acumulada desde ene-2024",
         stat_3_value: "2", stat_3_label: "Días de agua por semana",
         stat_4_value: "38", stat_4_label: "Residentes afectados",
         photo_1_caption: "La pila — el principal depósito de agua del hogar. Casi siempre vacía.",
         photo_2_caption: "Cubetas y guacales que reemplazan al agua corriente.",
-        photo_3_caption: "El medidor de agua sobre el que ANDA cobra esta deuda."
+        photo_3_caption: "El medidor de agua sobre el que ANDA cobra esta deuda.",
+        chart_title: "Lo que ANDA ha facturado cada mes",
+        chart_subtitle: "Facturas mensuales de agua · Abr 2023 a Nov 2025 · Fuente: facturas de ANDA",
+        chart_pre_label: "Antes del cambio de medidor",
+        chart_after_label: "Después del cambio de medidor",
+        chart_meter_event: "Medidor reemplazado",
+        chart_fair_max: "Lo que sería un máximo mensual justo (~$241)",
+        chart_axis_year_2023: "2023",
+        chart_axis_year_2024: "2024",
+        chart_axis_year_2025: "2025"
       },
       place: {
         eyebrow: "El lugar",
@@ -196,7 +216,7 @@
         photo_1_caption: "El patio, con el árbol bajo el que los residentes se sientan casi todas las tardes.",
         photo_2_caption: "Una tarde en el área común — residentes, equipo y voluntarios juntos.",
         photo_3_caption: "Un corredor bordeado de flores. Las camas hospitalarias del fondo se están reemplazando poco a poco.",
-        photo_4_caption: "Una pared lateral y el portón trasero — tranquilo, bien cuidado.",
+        photo_4_caption: "Una pared lateral y el portón delantero — tranquilo, bien cuidado.",
         photo_5_caption: "Muebles que se han ganado el descanso. El mantenimiento nunca termina.",
         photo_6_caption: "Las sillas de ruedas que acompañan a los residentes todos los días."
       },
@@ -490,6 +510,115 @@
     });
   }
 
+
+  /* ---- Crisis chart: monthly bills timeline since Apr 2023 ---- */
+  const CHART_DATA = [
+    { label: 'Apr 23', bill: 9.90,   era: 'before' },
+    { label: 'Jun 23', bill: 9.90,   era: 'before' },
+    { label: 'Dec 23', bill: 9.90,   era: 'before' },
+    { label: 'Jan 24', bill: 731.67, era: 'spike'  },
+    { label: 'Feb 24', bill: 496.40, era: 'after'  },
+    { label: 'Mar 24', bill: 564.40, era: 'after'  },
+    { label: 'Aug 24', bill: 564.40, era: 'after'  },
+    { label: 'Sep 24', bill: 537.20, era: 'after'  },
+    { label: 'Oct 24', bill: 489.60, era: 'after'  },
+    { label: 'Nov 24', bill: 290.00, era: 'after'  },
+    { label: 'Dec 24', bill: 404.60, era: 'after'  },
+    { label: 'Jan 25', bill: 493.00, era: 'after'  },
+    { label: 'May 25', bill: 284.20, era: 'after'  },
+    { label: 'Jul 25', bill: 683.40, era: 'after'  },
+    { label: 'Aug 25', bill: 761.60, era: 'after'  },
+    { label: 'Sep 25', bill: 744.60, era: 'after'  },
+    { label: 'Oct 25', bill: 598.40, era: 'after'  },
+    { label: 'Nov 25', bill: 1067.60, era: 'after' }
+  ];
+
+  function buildCrisisChart() {
+    const host = document.getElementById('crisis-chart');
+    if (!host) return;
+    const W = 880, H = 380;
+    const ML = 60, MR = 24, MT = 40, MB = 60;     // margins
+    const innerW = W - ML - MR;
+    const innerH = H - MT - MB;
+    const maxY = 1100;
+    const n = CHART_DATA.length;
+    const barW = Math.min(34, (innerW - (n - 1) * 8) / n);
+    const gap = (innerW - n * barW) / (n - 1);
+
+    const yTicks = [0, 250, 500, 750, 1000];
+    const yPos = v => MT + innerH - (v / maxY) * innerH;
+    const fairMax = 241;
+    const fairY = yPos(fairMax);
+
+    let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="crisis-chart-title" class="crisis-chart-svg">';
+    svg += '<title id="crisis-chart-title">Monthly water bills, Apr 2023 to Nov 2025</title>';
+
+    // Y-axis gridlines + labels
+    yTicks.forEach(function (v) {
+      const y = yPos(v);
+      svg += '<line x1="' + ML + '" y1="' + y + '" x2="' + (W - MR) + '" y2="' + y + '" class="chart-grid" />';
+      svg += '<text x="' + (ML - 8) + '" y="' + (y + 4) + '" text-anchor="end" class="chart-y-label">$' + v + '</text>';
+    });
+
+    // Fair-max dotted line + label
+    svg += '<line x1="' + ML + '" y1="' + fairY + '" x2="' + (W - MR) + '" y2="' + fairY + '" class="chart-fairmax-line" />';
+    svg += '<text x="' + (W - MR - 4) + '" y="' + (fairY - 6) + '" text-anchor="end" class="chart-fairmax-label" data-i18n="crisis.chart_fair_max">What a fair monthly maximum would be (~$241)</text>';
+
+    // Bars (each with a stagger animation via inline style)
+    CHART_DATA.forEach(function (d, i) {
+      const x = ML + i * (barW + gap);
+      const h = (d.bill / maxY) * innerH;
+      // Minimum visible height for the tiny $9.90 bars so they show
+      const visibleH = Math.max(h, 2);
+      const y = MT + innerH - visibleH;
+      const cls = 'chart-bar chart-bar-' + d.era;
+      const delay = (i * 60) + 'ms';
+      svg += '<rect class="' + cls + '" x="' + x + '" y="' + y + '" width="' + barW + '" height="' + visibleH + '" rx="2" style="animation-delay:' + delay + ';transform-origin:' + (x + barW/2) + 'px ' + (MT + innerH) + 'px"><title>' + d.label + ' · $' + d.bill.toFixed(2) + '</title></rect>';
+      // Bar value labels on the tall bars
+      if (d.bill > 300) {
+        svg += '<text x="' + (x + barW / 2) + '" y="' + (y - 6) + '" text-anchor="middle" class="chart-bar-value">$' + Math.round(d.bill) + '</text>';
+      }
+    });
+
+    // Spike annotation arrow + text pointing at Jan 24 bar (index 3)
+    const spikeIdx = 3;
+    const spikeX = ML + spikeIdx * (barW + gap) + barW / 2;
+    const spikeY = yPos(CHART_DATA[spikeIdx].bill);
+    const annoX = spikeX - 100;
+    const annoY = spikeY - 28;
+    svg += '<g class="chart-annotation">';
+    svg += '<text x="' + (annoX - 6) + '" y="' + annoY + '" text-anchor="end" class="chart-anno-text" data-i18n="crisis.chart_meter_event">Meter replaced</text>';
+    svg += '<text x="' + (annoX - 6) + '" y="' + (annoY + 16) + '" text-anchor="end" class="chart-anno-date">Jan 2024</text>';
+    svg += '<path d="M ' + (annoX - 2) + ' ' + (annoY + 6) + ' Q ' + (annoX + 24) + ' ' + (annoY + 6) + ' ' + (spikeX - 6) + ' ' + (spikeY - 4) + '" class="chart-anno-arrow" />';
+    svg += '<polygon points="' + (spikeX - 8) + ',' + (spikeY - 10) + ' ' + (spikeX - 2) + ',' + (spikeY - 2) + ' ' + (spikeX - 12) + ',' + (spikeY - 2) + '" class="chart-anno-arrow-head" />';
+    svg += '</g>';
+
+    // X-axis baseline
+    svg += '<line x1="' + ML + '" y1="' + (MT + innerH) + '" x2="' + (W - MR) + '" y2="' + (MT + innerH) + '" class="chart-axis" />';
+
+    // X-axis year labels — group bars by year and show year under midpoint
+    const yearGroups = { 2023: [], 2024: [], 2025: [] };
+    CHART_DATA.forEach(function (d, i) {
+      const yr = '20' + d.label.slice(-2);
+      yearGroups[yr].push(i);
+    });
+    Object.keys(yearGroups).forEach(function (yr) {
+      const idxs = yearGroups[yr];
+      if (!idxs.length) return;
+      const startX = ML + idxs[0] * (barW + gap);
+      const endX = ML + idxs[idxs.length - 1] * (barW + gap) + barW;
+      const midX = (startX + endX) / 2;
+      svg += '<text x="' + midX + '" y="' + (MT + innerH + 26) + '" text-anchor="middle" class="chart-year-label" data-i18n="crisis.chart_axis_year_' + yr + '">' + yr + '</text>';
+      svg += '<line x1="' + startX + '" y1="' + (MT + innerH + 8) + '" x2="' + endX + '" y2="' + (MT + innerH + 8) + '" class="chart-year-rule" />';
+    });
+
+    svg += '</svg>';
+    host.innerHTML = svg;
+    // Re-apply i18n to the freshly inserted nodes
+    applyLang(document.documentElement.getAttribute('lang') || 'en');
+  }
+
+
   function boot() {
     applyLang(detectInitialLang());
     initLangToggle();
@@ -498,6 +627,7 @@
     initShare();
     initVideo();
     initLightbox();
+    buildCrisisChart();
     initHeaderScroll();
   }
 

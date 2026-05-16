@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/style.css?v=4" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
 </head>
 <body>
 
@@ -37,7 +37,7 @@
       <a class="brand" href="#top" aria-label="Zaragoza Home — home">
         <picture class="brand-logo">
           <source srcset="img/optimized/logo-300.webp" type="image/webp" />
-          <img src="img/optimized/logo-600.png" alt="Zaragoza Home logo" width="180" height="120" />
+          <img src="img/optimized/logo-600.png" alt="Zaragoza Home logo" width="240" height="160" />
         </picture>
       </a>
 
@@ -141,8 +141,21 @@ Two days of water a week.</h1>
       <div class="container">
         <div class="crisis-intro">
           <p class="eyebrow eyebrow-light" data-i18n="crisis.eyebrow">What happened</p>
-          <h2 class="section-heading section-heading-light" data-i18n="crisis.heading">A $9 bill became a $15,000 catastrophe</h2>
+          <h2 class="section-heading section-heading-light" data-i18n="crisis.heading">Stable for ten years. Impossible since January 2024.</h2>
+          <p class="section-lede section-lede-light crisis-intro-text" data-i18n="crisis.intro">ANDA replaced the home's water meter in January 2024. The next bill arrived at $731.67 — 74× what they had paid the month before.</p>
         </div>
+
+        <figure class="crisis-chart-wrap">
+          <figcaption class="crisis-chart-title">
+            <span class="crisis-chart-eyebrow" data-i18n="crisis.chart_title">What ANDA has billed each month</span>
+            <span class="crisis-chart-sub" data-i18n="crisis.chart_subtitle">Monthly water bills · Apr 2023 to Nov 2025 · Source: ANDA invoices</span>
+          </figcaption>
+          <div class="crisis-chart" id="crisis-chart" aria-label="Monthly water bills, April 2023 to November 2025"></div>
+          <div class="crisis-chart-legend">
+            <span class="legend-item"><span class="legend-swatch swatch-before" aria-hidden="true"></span><span data-i18n="crisis.chart_pre_label">Before the meter change</span></span>
+            <span class="legend-item"><span class="legend-swatch swatch-after" aria-hidden="true"></span><span data-i18n="crisis.chart_after_label">After the meter change</span></span>
+          </div>
+        </figure>
 
         <div class="stats">
           <div class="stat">
@@ -427,9 +440,9 @@ Two days of water a week.</h1>
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <picture class="footer-logo">
-          <source srcset="img/optimized/logo-300.webp" type="image/webp" />
-          <img src="img/optimized/logo-600.png" alt="Zaragoza Home" width="120" height="80" />
+        <picture class="footer-logo-big">
+          <source srcset="img/optimized/logo-600.webp" type="image/webp" />
+          <img src="img/optimized/logo-600.png" alt="Zaragoza Home" width="240" height="160" />
         </picture>
         <p class="footer-tagline" data-i18n="footer.tagline">Help us bring water — and dignity — back...</p>
       </div>
@@ -469,6 +482,6 @@ Two days of water a week.</h1>
     </div>
   </div>
 
-  <script src="js/main.js?v=4"></script>
+  <script src="js/main.js?v=5"></script>
 </body>
 </html>
