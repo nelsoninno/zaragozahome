@@ -28,6 +28,7 @@
       story: {
         eyebrow: "Who we are",
         heading: "A home for those with nowhere else",
+        name_note: "On its official sign, this place is called “Hogar de Ancianos Giuseppe Angelucci” — its registered name, after the founders. Those founders are no longer involved. Today, the donors and community who keep the home alive simply call it Zaragoza Home — a name that fits what it has become.",
         body_1: "In a small town called Zaragoza, in the department of La Libertad, El Salvador, thirty-eight elderly men and women live together at Hogar de Ancianos Giuseppe Angelucci — a small home officially recognized as serving a vulnerable community. The land was given to a local church on a 25-year loan. The building itself was built by the Embassy of Taiwan in El Salvador. For decades, what came in from neighbors, churches, and the occasional volunteer was enough to keep the lights on and the kitchen running.",
         body_2: "Many residents arrived with no one. Only three of the thirty-eight are visited by their families. The other thirty-five spend their last years entirely in the care of the seven-person team that runs the home — and the donors and volunteers who keep it going. One resident was left at the entrance under a tree, badly hurt, and never claimed. This is the quiet reality. The home is not asking for charity. It is asking that the water keeps running, and that someone keeps caring.",
         caption: "The entrance to Hogar de Ancianos Giuseppe Angelucci — Zaragoza, La Libertad."
@@ -54,14 +55,14 @@
       },
       place: {
         eyebrow: "The place",
-        heading: "Painted walls. Tended plants. Beds that break.",
-        body: "The home runs on what comes in. Walls have been painted. Plants are tended. The kitchen is clean. The team takes pride in what they have. But beds break and don't always get replaced. Furniture wears down. There is always less than there should be. With your help, the home stays standing — and the elders here keep their dignity.",
+        heading: "Painted walls. Tended plants. A place worth keeping.",
+        body: "The home runs on what comes in. Walls have been painted. Plants are tended. The kitchen is clean. Most beds were recently replaced. The team takes pride in what they have. What remains is maintenance — every wall, every chair, every corner needs ongoing care. With your help, the home keeps its dignity.",
         photo_1_caption: "The courtyard, with the tree the residents sit under most afternoons.",
-        photo_2_caption: "The front of the home, with the sign and visiting hours.",
-        photo_3_caption: "A walkway along the building, lined with flowers.",
+        photo_2_caption: "An afternoon in the common room — residents, staff, and volunteers together.",
+        photo_3_caption: "A walkway lined with flowers. The older medical beds at the far end are gradually being replaced.",
         photo_4_caption: "A side wall and the back gate — quiet, well-kept.",
-        photo_5_caption: "Worn furniture that has been here longer than anyone remembers.",
-        photo_6_caption: "The main entrance from the street."
+        photo_5_caption: "Furniture that has earned its rest. Maintenance never stops.",
+        photo_6_caption: "The wheelchairs that get the residents through the day."
       },
       abandoned_callout: {
         line_1: "35 of 38",
@@ -163,6 +164,7 @@
       story: {
         eyebrow: "Quiénes somos",
         heading: "Un hogar para quienes no tienen otro lugar",
+        name_note: "En su rótulo oficial, este lugar se llama “Hogar de Ancianos Giuseppe Angelucci” — su nombre registrado, en honor a sus fundadores. Esos fundadores ya no están involucrados. Hoy los donantes y la comunidad que mantienen vivo el hogar simplemente lo llaman Zaragoza Home — un nombre que refleja lo que se ha convertido.",
         body_1: "En un pequeño pueblo llamado Zaragoza, en el departamento de La Libertad, El Salvador, treinta y ocho ancianos y ancianas viven juntos en el Hogar de Ancianos Giuseppe Angelucci — un hogar oficialmente reconocido por atender a una comunidad vulnerable. El terreno fue dado en comodato a una iglesia local por 25 años. El edificio fue construido por la Embajada de Taiwán en El Salvador. Durante décadas, lo que llegaba de vecinos, iglesias y voluntarios alcanzaba para mantener la luz y la cocina.",
         body_2: "Muchos llegaron sin nadie. Solo tres de los treinta y ocho son visitados por sus familias. Los otros treinta y cinco pasan sus últimos años enteramente al cuidado del equipo de siete personas que sostiene el hogar — y de los donantes y voluntarios que lo hacen posible. Uno fue dejado bajo un árbol en la entrada, malherido, y nunca lo reclamaron. Esta es la realidad. El hogar no pide caridad. Pide que el agua vuelva a correr, y que alguien siga cuidando.",
         caption: "La entrada del Hogar de Ancianos Giuseppe Angelucci — Zaragoza, La Libertad."
@@ -189,14 +191,14 @@
       },
       place: {
         eyebrow: "El lugar",
-        heading: "Paredes pintadas. Plantas cuidadas. Camas que se rompen.",
-        body: "El hogar funciona con lo que llega. Las paredes están pintadas. Las plantas se cuidan. La cocina se mantiene limpia. El equipo se enorgullece de lo que tienen. Pero las camas se rompen y no siempre se reemplazan. Los muebles se desgastan. Siempre falta más. Con tu ayuda, el hogar sigue de pie — y los ancianos que viven aquí conservan su dignidad.",
+        heading: "Paredes pintadas. Plantas cuidadas. Un lugar que vale la pena cuidar.",
+        body: "El hogar funciona con lo que llega. Las paredes están pintadas. Las plantas se cuidan. La cocina se mantiene limpia. Casi todas las camas se reemplazaron recientemente. El equipo se enorgullece de lo que tienen. Lo que queda es mantenimiento — cada pared, cada silla, cada rincón necesita cuidado constante. Con tu ayuda, el hogar conserva su dignidad.",
         photo_1_caption: "El patio, con el árbol bajo el que los residentes se sientan casi todas las tardes.",
-        photo_2_caption: "El frente del hogar, con el rótulo y los horarios de visita.",
-        photo_3_caption: "Un corredor del edificio, bordeado de flores.",
+        photo_2_caption: "Una tarde en el área común — residentes, equipo y voluntarios juntos.",
+        photo_3_caption: "Un corredor bordeado de flores. Las camas hospitalarias del fondo se están reemplazando poco a poco.",
         photo_4_caption: "Una pared lateral y el portón trasero — tranquilo, bien cuidado.",
-        photo_5_caption: "Muebles desgastados que llevan aquí más tiempo del que nadie recuerda.",
-        photo_6_caption: "La entrada principal desde la calle."
+        photo_5_caption: "Muebles que se han ganado el descanso. El mantenimiento nunca termina.",
+        photo_6_caption: "Las sillas de ruedas que acompañan a los residentes todos los días."
       },
       abandoned_callout: {
         line_1: "35 de 38",

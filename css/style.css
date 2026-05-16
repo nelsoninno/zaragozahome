@@ -1113,3 +1113,81 @@ body.modal-open { overflow: hidden; }
 }
 
 body.lightbox-open { overflow: hidden; }
+
+/* ================================================================
+   v4 additions: name note, wider donate boxes, stacked bank details
+   ================================================================ */
+
+.story-name-note {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--c-ink-500);
+  margin: 0 0 20px;
+  padding-left: 14px;
+  border-left: 2px solid var(--c-cream-300);
+}
+
+/* Donate boxes — equal width, wider container, single-line account ----- */
+.donate-cta-wrap { max-width: 1100px; }
+
+.donate-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  text-align: left;
+}
+@media (min-width: 800px) {
+  .donate-options {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    align-items: stretch;
+  }
+}
+.donate-option {
+  padding: 32px 32px 30px;
+}
+
+/* Stack bank-details vertically so the account number gets full width */
+.bank-details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0;
+  font-size: 14px;
+}
+.bank-details dt {
+  font-weight: 700;
+  color: var(--c-cream-200);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 0 0 4px;
+}
+.bank-details dd {
+  margin: 0;
+  color: var(--c-cream-50);
+  font-size: 16px;
+  word-break: normal;
+  line-height: 1.35;
+}
+.bank-details dd a {
+  color: var(--c-cream-50);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+.bank-account-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.bank-account-number {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--c-gold);
+  white-space: nowrap;
+}
