@@ -1372,3 +1372,30 @@ body.lightbox-open { overflow: hidden; }
 }
 .swatch-before { background: #5fb392; }
 .swatch-after  { background: #c95a3f; }
+
+/* ---- v5.1: chart polish + fair-max note ---- */
+
+.chart-bar-value-before {
+  fill: #8fdab4;
+  font-weight: 700;
+}
+.chart-anno-text-before {
+  fill: #8fdab4;
+  font-style: italic;
+}
+.chart-anno-arrow-before {
+  stroke: #8fdab4;
+}
+.chart-anno-arrow-head-before {
+  fill: #8fdab4;
+}
+
+.crisis-chart-note {
+  margin: 14px auto 0;
+  max-width: 760px;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--c-cream-300);
+  line-height: 1.45;
+}

@@ -46,6 +46,7 @@
         body_1: "For more than a decade, the bill was around $9.90 a month. Then, in January 2024, ANDA replaced the meter. The next invoice was $731.67. The one after that, $564. And on, and on. Today, the home owes more than $15,000.",
         body_2: "In March 2025, ANDA's own inspector confirmed it on paper: water reaches the home only two days a week. The pump is broken. Residents bathe with buckets and gallons brought by neighbors. They have no laundry machine. No pool. No irrigation.",
         body_3: "And yet ANDA keeps billing. The November 2025 bill records 314 cubic meters of water — more than four times what is physically possible for forty-five people with two-day-a-week access. Even if every resident took a 30-minute shower every day, the numbers would not add up. Somewhere underground, water is leaving the system before it reaches the home. ANDA insists the home must pay. The home survives on $250 a month.",
+        body_4: "And there is a second injustice in the rate itself. Most homes in El Salvador pay between $0.21 and $0.30 per cubic meter of water — under residential or bulk-condominium tariffs. The home is billed at $3.40/m³, the commercial maximum tier. That is roughly 15× the rate a typical condominium pays for the same water. A nursing home for thirty-eight elderly people, with water two days a week, is being billed at the same rate as a hotel laundry.",
         stat_1_value: "$9", stat_1_label: "The historic monthly bill",
         stat_2_value: "$15,000+", stat_2_label: "Accumulated debt since Jan 2024",
         stat_3_value: "2", stat_3_label: "Days of water per week",
@@ -55,6 +56,8 @@
         photo_3_caption: "The water meter ANDA has been billing against.",
         chart_title: "What ANDA has billed each month",
         chart_subtitle: "Monthly water bills · Apr 2023 to Nov 2025 · Source: ANDA invoices",
+        chart_stable_label: "Stable for a decade",
+        chart_fair_note: "Dashed line: what a fair monthly maximum would be (~$241), if the home used as much water as humanly possible at the real $3.40/m³ rate.",
         chart_pre_label: "Before the meter change",
         chart_after_label: "After the meter change",
         chart_meter_event: "Meter replaced",
@@ -192,6 +195,7 @@
         body_1: "Durante más de una década, la factura rondaba los $9.90 al mes. Entonces, en enero de 2024, ANDA reemplazó el medidor. La siguiente factura fue de $731.67. La siguiente, $564. Y así, una tras otra. Hoy el hogar debe más de $15,000.",
         body_2: "En marzo de 2025, la inspección de ANDA confirmó por escrito que el agua llega al hogar solo dos días por semana. La bomba está descompuesta. Los residentes se bañan con cubetas y galones que traen los vecinos. No tienen lavadora. No hay piscina. No hay riego.",
         body_3: "Y aun así ANDA sigue facturando. La factura de noviembre de 2025 registra 314 metros cúbicos de agua — más de cuatro veces lo que es físicamente posible para cuarenta y cinco personas con acceso de solo dos días por semana. Incluso si cada residente se duchara 30 minutos al día, los números no cuadran. En algún punto bajo tierra, el agua se escapa antes de llegar al hogar. ANDA insiste en que el hogar debe pagar. El hogar sobrevive con $250 al mes.",
+        body_4: "Y hay una segunda injusticia en la tarifa misma. La mayoría de los hogares en El Salvador paga entre $0.21 y $0.30 por metro cúbico de agua — bajo tarifas residenciales o de condominio en bloque. Al hogar le cobran $3.40/m³, el tope de la tarifa comercial. Eso es aproximadamente 15× la tarifa que paga un condominio típico por la misma agua. Un asilo para treinta y ocho ancianos, con agua dos días a la semana, está siendo facturado a la misma tarifa que la lavandería de un hotel.",
         stat_1_value: "$9", stat_1_label: "La factura mensual histórica",
         stat_2_value: "$15,000+", stat_2_label: "Deuda acumulada desde ene-2024",
         stat_3_value: "2", stat_3_label: "Días de agua por semana",
@@ -201,6 +205,8 @@
         photo_3_caption: "El medidor de agua sobre el que ANDA cobra esta deuda.",
         chart_title: "Lo que ANDA ha facturado cada mes",
         chart_subtitle: "Facturas mensuales de agua · Abr 2023 a Nov 2025 · Fuente: facturas de ANDA",
+        chart_stable_label: "Estable durante una década",
+        chart_fair_note: "Línea punteada: un máximo mensual justo (~$241) si el hogar consumiera todo lo humanamente posible al precio real de $3.40/m³.",
         chart_pre_label: "Antes del cambio de medidor",
         chart_after_label: "Después del cambio de medidor",
         chart_meter_event: "Medidor reemplazado",
@@ -562,7 +568,7 @@
 
     // Fair-max dotted line + label
     svg += '<line x1="' + ML + '" y1="' + fairY + '" x2="' + (W - MR) + '" y2="' + fairY + '" class="chart-fairmax-line" />';
-    svg += '<text x="' + (W - MR - 4) + '" y="' + (fairY - 6) + '" text-anchor="end" class="chart-fairmax-label" data-i18n="crisis.chart_fair_max">What a fair monthly maximum would be (~$241)</text>';
+    // fair-max label is rendered as a note BELOW the chart instead
 
     // Bars (each with a stagger animation via inline style)
     CHART_DATA.forEach(function (d, i) {
@@ -579,6 +585,21 @@
         svg += '<text x="' + (x + barW / 2) + '" y="' + (y - 6) + '" text-anchor="middle" class="chart-bar-value">$' + Math.round(d.bill) + '</text>';
       }
     });
+
+    // '$9.90' labels above the 2023 bars + 'Stable for a decade' annotation
+    for (let pi = 0; pi < 3; pi++) {
+      const px = ML + pi * (barW + gap) + barW / 2;
+      const py = yPos(CHART_DATA[pi].bill) - 8;
+      svg += '<text x="' + px + '" y="' + py + '" text-anchor="middle" class="chart-bar-value chart-bar-value-before">$9.90</text>';
+    }
+    // Stable-for-a-decade annotation: arrow + label above the 2023 cluster
+    const stableMidX = ML + 1 * (barW + gap) + barW / 2;
+    const stableY = yPos(0) - 70;
+    svg += '<g class="chart-annotation">';
+    svg += '<text x="' + stableMidX + '" y="' + stableY + '" text-anchor="middle" class="chart-anno-text chart-anno-text-before" data-i18n="crisis.chart_stable_label">Stable for a decade</text>';
+    svg += '<path d="M ' + stableMidX + ' ' + (stableY + 6) + ' L ' + stableMidX + ' ' + (yPos(0) - 14) + '" class="chart-anno-arrow chart-anno-arrow-before" />';
+    svg += '<polygon points="' + (stableMidX - 4) + ',' + (yPos(0) - 14) + ' ' + (stableMidX + 4) + ',' + (yPos(0) - 14) + ' ' + stableMidX + ',' + (yPos(0) - 6) + '" class="chart-anno-arrow-head chart-anno-arrow-head-before" />';
+    svg += '</g>';
 
     // Spike annotation arrow + text pointing at Jan 24 bar (index 3)
     const spikeIdx = 3;
