@@ -15,7 +15,11 @@
   <meta property="og:image" content="https://zaragozahome.org/img/optimized/resident-maria-1600.webp" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238a2a1f'/%3E%3Cpath d='M32 14c-7 10-11 17-11 23a11 11 0 0 0 22 0c0-6-4-13-11-23z' fill='%23f5e6cf'/%3E%3C/svg%3E" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/optimized/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="img/optimized/favicon-96.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="img/optimized/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="img/optimized/favicon-192.png" />
+  <link rel="shortcut icon" href="img/optimized/favicon.ico" />
 
   <link rel="preload" as="image" href="img/optimized/resident-maria-1600.webp" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,19 +35,17 @@
   <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Zaragoza Home — home">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="28" height="28"><path d="M16 4c-4 6-7 11-7 15a7 7 0 0 0 14 0c0-4-3-9-7-15z" fill="currentColor"/></svg>
-        </span>
-        <span class="brand-text">
-          <span class="brand-title" data-i18n="footer.brand_title">Zaragoza Home</span>
-          <span class="brand-sub" data-i18n="footer.brand_sub">Hogar Giuseppe Angelucci · El Salvador</span>
-        </span>
+        <picture class="brand-logo">
+          <source srcset="img/optimized/logo-300.webp" type="image/webp" />
+          <img src="img/optimized/logo-600.png" alt="Zaragoza Home logo" width="180" height="120" />
+        </picture>
       </a>
 
       <nav class="primary-nav" aria-label="Primary">
         <a href="#story" data-i18n="nav.story">Their story</a>
         <a href="#watch" data-i18n="nav.watch">Watch</a>
         <a href="#crisis" data-i18n="nav.crisis">The crisis</a>
+        <a href="#place" data-i18n="nav.place">The place</a>
         <a href="#faces" data-i18n="nav.faces">The faces</a>
         <a href="#team" data-i18n="nav.team">The team</a>
       </nav>
@@ -66,7 +68,7 @@
         <picture>
           <source srcset="img/optimized/resident-maria-800.webp" media="(max-width: 720px)" type="image/webp" />
           <img src="img/optimized/resident-maria-1600.webp"
-               alt="María, a resident of Hogar de Ancianos Giuseppe Angelucci in Zaragoza, El Salvador, laughing against a turquoise wall."
+               alt="María, a resident of Hogar de Ancianos Giuseppe Angelucci, laughing against a turquoise wall."
                width="1600" height="1067"
                fetchpriority="high" />
         </picture>
@@ -76,7 +78,7 @@
         <p class="eyebrow eyebrow-light" data-i18n="hero.eyebrow">Hogar de Ancianos Giuseppe Angelucci · Zaragoza, La Libertad, El Salvador</p>
         <h1 class="hero-headline" data-i18n="hero.headline">Thirty-eight elders.
 Two days of water a week.</h1>
-        <p class="hero-subhead" data-i18n="hero.subhead">For decades they paid $9 a month for water. In January 2024 the bill arrived at $750...</p>
+        <p class="hero-subhead" data-i18n="hero.subhead">For decades they paid $9 a month for water...</p>
         <div class="hero-cta">
           <button type="button" class="btn btn-primary btn-lg donate-trigger" data-i18n="hero.cta_primary">Donate now</button>
           <a href="#story" class="btn btn-ghost btn-lg" data-i18n="hero.cta_secondary">Read their story</a>
@@ -94,12 +96,16 @@ Two days of water a week.</h1>
           <h2 class="section-heading" data-i18n="story.heading">A home for those with nowhere else</h2>
           <p class="lede" data-i18n="story.body_1">In a small town called Zaragoza...</p>
           <p data-i18n="story.body_2">Many residents arrived with no one...</p>
+          <div class="abandoned-callout">
+            <span class="abandoned-callout-number" data-i18n="abandoned_callout.line_1">35 of 38</span>
+            <span class="abandoned-callout-text" data-i18n="abandoned_callout.line_2">residents have been completely abandoned by their families.</span>
+          </div>
         </div>
         <figure class="two-col-figure">
           <picture>
             <source srcset="img/optimized/place-01-800.webp" media="(max-width: 720px)" type="image/webp" />
             <img src="img/optimized/place-01-1600.webp"
-                 alt="Entrance signage of Hogar de Ancianos Giuseppe Angelucci showing visiting hours."
+                 alt="Entrance signage of Hogar de Ancianos Giuseppe Angelucci."
                  width="900" height="600"
                  loading="lazy" />
           </picture>
@@ -134,7 +140,7 @@ Two days of water a week.</h1>
       <div class="container">
         <div class="crisis-intro">
           <p class="eyebrow eyebrow-light" data-i18n="crisis.eyebrow">What happened</p>
-          <h2 class="section-heading section-heading-light" data-i18n="crisis.heading">A $9 bill became a $50,000 catastrophe</h2>
+          <h2 class="section-heading section-heading-light" data-i18n="crisis.heading">A $9 bill became a $15,000 catastrophe</h2>
         </div>
 
         <div class="stats">
@@ -143,7 +149,7 @@ Two days of water a week.</h1>
             <span class="stat-label" data-i18n="crisis.stat_1_label">The historic monthly bill</span>
           </div>
           <div class="stat stat-accent">
-            <span class="stat-value" data-i18n="crisis.stat_2_value">$50,000+</span>
+            <span class="stat-value" data-i18n="crisis.stat_2_value">$15,000+</span>
             <span class="stat-label" data-i18n="crisis.stat_2_label">Accumulated debt since Jan 2024</span>
           </div>
           <div class="stat">
@@ -156,25 +162,25 @@ Two days of water a week.</h1>
           </div>
         </div>
 
-        <div class="crisis-photos">
-          <figure class="crisis-photo">
+        <div class="crisis-photos" data-lightbox-group>
+          <figure class="crisis-photo" data-lightbox-item data-full="img/optimized/crisis-empty-pila-1600.webp" data-alt="The home's empty water reservoir." data-caption="The pila — the home's main water reservoir. Mostly empty.">
             <picture>
               <source srcset="img/optimized/crisis-empty-pila-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/crisis-empty-pila-1600.webp" alt="The home's main concrete water reservoir (pila) sitting empty." loading="lazy" />
             </picture>
             <figcaption data-i18n="crisis.photo_1_caption">The pila — the home's main water reservoir. Mostly empty.</figcaption>
           </figure>
-          <figure class="crisis-photo">
+          <figure class="crisis-photo" data-lightbox-item data-full="img/optimized/crisis-buckets-1600.webp" data-alt="Plastic basins and buckets used instead of running water." data-caption="Buckets and basins used in place of running water.">
             <picture>
               <source srcset="img/optimized/crisis-buckets-800.webp" media="(max-width: 720px)" type="image/webp" />
-              <img src="img/optimized/crisis-buckets-1600.webp" alt="Plastic basins and buckets used in place of running water at the home." loading="lazy" />
+              <img src="img/optimized/crisis-buckets-1600.webp" alt="Plastic basins and buckets used in place of running water." loading="lazy" />
             </picture>
             <figcaption data-i18n="crisis.photo_2_caption">Buckets and basins used in place of running water.</figcaption>
           </figure>
-          <figure class="crisis-photo">
+          <figure class="crisis-photo" data-lightbox-item data-full="img/optimized/crisis-meter-1600.webp" data-alt="The ANDA water meter half-buried in dirt." data-caption="The water meter ANDA has been billing against.">
             <picture>
               <source srcset="img/optimized/crisis-meter-800.webp" media="(max-width: 720px)" type="image/webp" />
-              <img src="img/optimized/crisis-meter-1600.webp" alt="The ANDA water meter, half-buried in dirt, that is being billed against." loading="lazy" />
+              <img src="img/optimized/crisis-meter-1600.webp" alt="The ANDA water meter, half-buried in dirt." loading="lazy" />
             </picture>
             <figcaption data-i18n="crisis.photo_3_caption">The water meter ANDA has been billing against.</figcaption>
           </figure>
@@ -183,69 +189,123 @@ Two days of water a week.</h1>
         <div class="crisis-body">
           <p data-i18n="crisis.body_1">For decades, the water bill was around $9 a month...</p>
           <p data-i18n="crisis.body_2">Three different inspections confirmed it: there is no leak...</p>
-          <p class="lede lede-light" data-i18n="crisis.body_3">And yet, in roughly eighteen months, the home owes more than fifty thousand dollars...</p>
+          <p class="lede lede-light" data-i18n="crisis.body_3">And yet, in roughly eighteen months, the home owes more than fifteen thousand dollars...</p>
         </div>
       </div>
     </section>
 
-    <section class="section section-cream" id="faces">
+    <section class="section section-cream" id="place">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow" data-i18n="place.eyebrow">The place</p>
+          <h2 class="section-heading" data-i18n="place.heading">Painted walls. Tended plants. Beds that break.</h2>
+          <p class="section-lede" data-i18n="place.body">The home runs on what comes in...</p>
+        </div>
+        <div class="place-grid" data-lightbox-group>
+          <figure class="place-photo place-photo-wide" data-lightbox-item data-full="img/optimized/place-14-1600.webp" data-alt="The home's central courtyard, with the large shade tree." data-caption="The courtyard, with the tree the residents sit under most afternoons.">
+            <picture>
+              <source srcset="img/optimized/place-14-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-14-1600.webp" alt="The home's central courtyard, with the large shade tree." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_1_caption">The courtyard, with the tree the residents sit under most afternoons.</figcaption>
+          </figure>
+          <figure class="place-photo" data-lightbox-item data-full="img/optimized/place-02-1600.webp" data-alt="The home's front buildings with the entrance sign." data-caption="The front of the home, with the sign and visiting hours.">
+            <picture>
+              <source srcset="img/optimized/place-02-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-02-1600.webp" alt="The home's front buildings with the entrance sign." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_2_caption">The front of the home, with the sign and visiting hours.</figcaption>
+          </figure>
+          <figure class="place-photo" data-lightbox-item data-full="img/optimized/place-08-1600.webp" data-alt="A long walkway lined with flowers." data-caption="A walkway along the building, lined with flowers.">
+            <picture>
+              <source srcset="img/optimized/place-08-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-08-1600.webp" alt="A long walkway lined with flowers." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_3_caption">A walkway along the building, lined with flowers.</figcaption>
+          </figure>
+          <figure class="place-photo" data-lightbox-item data-full="img/optimized/place-17-1600.webp" data-alt="A side wall and the back gate, peaceful and well-kept." data-caption="A side wall and the back gate — quiet, well-kept.">
+            <picture>
+              <source srcset="img/optimized/place-17-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-17-1600.webp" alt="A side wall and the back gate, peaceful and well-kept." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_4_caption">A side wall and the back gate — quiet, well-kept.</figcaption>
+          </figure>
+          <figure class="place-photo" data-lightbox-item data-full="img/optimized/place-06-1600.webp" data-alt="Worn furniture in the home." data-caption="Worn furniture that has been here longer than anyone remembers.">
+            <picture>
+              <source srcset="img/optimized/place-06-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-06-1600.webp" alt="Worn furniture in the home." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_5_caption">Worn furniture that has been here longer than anyone remembers.</figcaption>
+          </figure>
+          <figure class="place-photo" data-lightbox-item data-full="img/optimized/place-19-1600.webp" data-alt="The main entrance from the street." data-caption="The main entrance from the street.">
+            <picture>
+              <source srcset="img/optimized/place-19-800.webp" media="(max-width: 720px)" type="image/webp" />
+              <img src="img/optimized/place-19-1600.webp" alt="The main entrance from the street." loading="lazy" />
+            </picture>
+            <figcaption data-i18n="place.photo_6_caption">The main entrance from the street.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faces">
       <div class="container">
         <div class="section-intro">
           <p class="eyebrow" data-i18n="faces.eyebrow">Who you're helping</p>
           <h2 class="section-heading" data-i18n="faces.heading">Thirty-eight names. Eight you can meet today.</h2>
           <p class="section-lede" data-i18n="faces.body">Every donation reaches a real person...</p>
         </div>
-        <ul class="gallery gallery-named">
-          <li class="gallery-item">
+        <ul class="gallery gallery-named" data-lightbox-group>
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-maria-1600.webp" data-alt="María, a resident, laughing." data-caption="María">
             <picture>
               <source srcset="img/optimized/resident-maria-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-maria-1600.webp" alt="María, a resident, laughing." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">María</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-marta-julia-1600.webp" data-alt="Marta Julia, a resident." data-caption="Marta Julia">
             <picture>
               <source srcset="img/optimized/resident-marta-julia-800.webp" media="(max-width: 720px)" type="image/webp" />
-              <img src="img/optimized/resident-marta-julia-1600.webp" alt="Marta Julia, a resident, in a wheelchair." loading="lazy" />
+              <img src="img/optimized/resident-marta-julia-1600.webp" alt="Marta Julia, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Marta Julia</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-mario-1600.webp" data-alt="Mario, a resident." data-caption="Mario">
             <picture>
               <source srcset="img/optimized/resident-mario-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-mario-1600.webp" alt="Mario, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Mario</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-cristian-1600.webp" data-alt="Cristian, a resident." data-caption="Cristian">
             <picture>
               <source srcset="img/optimized/resident-cristian-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-cristian-1600.webp" alt="Cristian, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Cristian</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-santiago-1600.webp" data-alt="Santiago, a resident." data-caption="Santiago">
             <picture>
               <source srcset="img/optimized/resident-santiago-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-santiago-1600.webp" alt="Santiago, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Santiago</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-marcos-1600.webp" data-alt="Marcos, a resident." data-caption="Marcos">
             <picture>
               <source srcset="img/optimized/resident-marcos-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-marcos-1600.webp" alt="Marcos, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Marcos</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-luisito-1600.webp" data-alt="Luisito, a resident." data-caption="Luisito">
             <picture>
               <source srcset="img/optimized/resident-luisito-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-luisito-1600.webp" alt="Luisito, a resident." loading="lazy" />
             </picture>
             <figcaption class="gallery-name">Luisito</figcaption>
           </li>
-          <li class="gallery-item">
+          <li class="gallery-item" data-lightbox-item data-full="img/optimized/resident-jesus-1600.webp" data-alt="Jesús, a resident." data-caption="Jesús">
             <picture>
               <source srcset="img/optimized/resident-jesus-800.webp" media="(max-width: 720px)" type="image/webp" />
               <img src="img/optimized/resident-jesus-1600.webp" alt="Jesús, a resident." loading="lazy" />
@@ -256,7 +316,7 @@ Two days of water a week.</h1>
       </div>
     </section>
 
-    <section class="section" id="team">
+    <section class="section section-cream" id="team">
       <div class="container">
         <div class="section-intro">
           <p class="eyebrow" data-i18n="team.eyebrow">The hands that keep this place running</p>
@@ -267,7 +327,7 @@ Two days of water a week.</h1>
           <article class="team-card">
             <picture>
               <source srcset="img/optimized/team-carolina-800.webp" media="(max-width: 720px)" type="image/webp" />
-              <img src="img/optimized/team-carolina-1600.webp" alt="Carolina, General Director of the home, smiling at the entrance gate." loading="lazy" />
+              <img src="img/optimized/team-carolina-1600.webp" alt="Carolina, General Director, smiling at the entrance gate." loading="lazy" />
             </picture>
             <div class="team-meta">
               <h3 class="team-name" data-i18n="team.carolina_name">Carolina</h3>
@@ -288,7 +348,7 @@ Two days of water a week.</h1>
       </div>
     </section>
 
-    <section class="section section-cream" id="help">
+    <section class="section" id="help">
       <div class="container">
         <div class="section-intro">
           <p class="eyebrow" data-i18n="help.eyebrow">Make a difference</p>
@@ -317,7 +377,10 @@ Two days of water a week.</h1>
             </div>
             <h3 class="card-title" data-i18n="help.card_3_title">Visit</h3>
             <p class="card-body" data-i18n="help.card_3_body">If you're in El Salvador...</p>
-            <a href="mailto:contactogenteayudandogente@gmail.com" class="btn btn-ghost" data-i18n="help.card_3_cta">Get in touch</a>
+            <div class="card-cta-stack">
+              <a href="https://maps.app.goo.gl/LLEMpv37LnpFoiSn7" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" data-i18n="help.card_3_cta_maps">Open in Google Maps</a>
+              <a href="https://wa.me/50374570984" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" data-i18n="help.card_3_cta_whatsapp">WhatsApp Carolina</a>
+            </div>
           </article>
         </div>
       </div>
@@ -351,8 +414,8 @@ Two days of water a week.</h1>
           <div class="donate-option donate-option-intl">
             <h3 class="donate-option-title" data-i18n="donate_section.international_title">International donors</h3>
             <p class="donate-option-subtitle" data-i18n="donate_section.international_subtitle">GoFundMe and PayPal channels — coming soon.</p>
-            <p class="donate-option-note" data-i18n="donate_section.international_status">We are finalizing these. Check back in a few days, or email us and we'll guide you.</p>
-            <a href="mailto:contactogenteayudandogente@gmail.com?subject=International%20donation%20Zaragoza%20Home" class="btn btn-light btn-sm">contactogenteayudandogente@gmail.com</a>
+            <p class="donate-option-note" data-i18n="donate_section.international_status">We are finalizing these. Check back in a few days, or message Carolina on WhatsApp.</p>
+            <a href="https://wa.me/50374570984" target="_blank" rel="noopener" class="btn btn-light btn-sm">WhatsApp · +503 7457 0984</a>
           </div>
         </div>
       </div>
@@ -363,23 +426,47 @@ Two days of water a week.</h1>
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="22" height="22"><path d="M16 4c-4 6-7 11-7 15a7 7 0 0 0 14 0c0-4-3-9-7-15z" fill="currentColor"/></svg>
-        </span>
+        <picture class="footer-logo">
+          <source srcset="img/optimized/logo-300.webp" type="image/webp" />
+          <img src="img/optimized/logo-600.png" alt="Zaragoza Home" width="120" height="80" />
+        </picture>
         <p class="footer-tagline" data-i18n="footer.tagline">Help us bring water — and dignity — back...</p>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.contact_heading">Contact</h4>
-        <a href="mailto:contactogenteayudandogente@gmail.com" data-i18n="footer.contact_email">contactogenteayudandogente@gmail.com</a>
+        <a href="https://wa.me/50374570984" target="_blank" rel="noopener" class="footer-link-stacked">
+          <span class="footer-link-label" data-i18n="footer.contact_whatsapp_label">WhatsApp · Carolina García</span>
+          <span class="footer-link-value" data-i18n="footer.contact_whatsapp_value">+503 7457 0984</span>
+        </a>
+        <a href="mailto:contactogenteayudandogente@gmail.com" class="footer-link-stacked">
+          <span class="footer-link-label" data-i18n="footer.contact_email_label">Email</span>
+          <span class="footer-link-value" data-i18n="footer.contact_email_value">contactogenteayudandogente@gmail.com</span>
+        </a>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.follow_heading">Follow the story</h4>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="https://www.facebook.com/share/1CpMR7RhpE/" target="_blank" rel="noopener" data-i18n="footer.follow_facebook">Facebook</a>
       </div>
-      <p class="footer-credits" data-i18n="footer.credits">© 2026 Asociación Gente Ayudando Gente · Hogar de Ancianos Giuseppe Angelucci</p>
+      <p class="footer-credits" data-i18n="footer.credits">© 2026 Asociación Gente Ayudando Gente</p>
     </div>
   </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+    <div class="lightbox-panel" role="document">
+      <button type="button" class="lightbox-close" data-close-lightbox aria-label="Close">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="m12 10.6 5.3-5.3 1.4 1.4L13.4 12l5.3 5.3-1.4 1.4L12 13.4l-5.3 5.3-1.4-1.4L10.6 12 5.3 6.7l1.4-1.4z"/></svg>
+      </button>
+      <button type="button" class="lightbox-nav lightbox-nav-prev" data-lightbox-prev aria-label="Previous">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M14.7 5.3 8 12l6.7 6.7 1.4-1.4L10.8 12l5.3-5.3z"/></svg>
+      </button>
+      <button type="button" class="lightbox-nav lightbox-nav-next" data-lightbox-next aria-label="Next">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M9.3 5.3 8 6.7 13.3 12 8 17.3l1.4 1.4L16 12z"/></svg>
+      </button>
+      <img class="lightbox-img" src="" alt="" />
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
