@@ -64,7 +64,8 @@
         chart_fair_max: "What a fair monthly maximum would be (~$241)",
         chart_axis_year_2023: "2023",
         chart_axis_year_2024: "2024",
-        chart_axis_year_2025: "2025"
+        chart_axis_year_2025: "2025",
+        update_note: "Update: the water utility has agreed to replace the meter again. Bills are expected to come back down to around $20 a month."
       },
       place: {
         eyebrow: "The place",
@@ -213,7 +214,8 @@
         chart_fair_max: "Lo que sería un máximo mensual justo (~$241)",
         chart_axis_year_2023: "2023",
         chart_axis_year_2024: "2024",
-        chart_axis_year_2025: "2025"
+        chart_axis_year_2025: "2025",
+        update_note: "Actualización: la empresa de agua ha aceptado reemplazar el medidor nuevamente. Se espera que las facturas bajen a alrededor de $20 al mes."
       },
       place: {
         eyebrow: "El lugar",

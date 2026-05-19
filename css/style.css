@@ -1399,3 +1399,17 @@ body.lightbox-open { overflow: hidden; }
   color: var(--c-cream-300);
   line-height: 1.45;
 }
+
+
+/* ---- v6.1: crisis update banner ---- */
+.crisis-update {
+  margin-top: 28px;
+  padding: 16px 20px;
+  background: rgba(95, 179, 146, 0.12);
+  border: 1px solid rgba(95, 179, 146, 0.35);
+  border-left: 4px solid #5fb392;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--c-cream-100);
+}
