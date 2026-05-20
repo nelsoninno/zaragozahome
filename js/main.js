@@ -10,7 +10,7 @@
     en: {
       meta: {
         title: "Zaragoza Home, Help 38 elders bring water back",
-        description: "For decades they paid $9 a month for water at Hogar de Ancianos Giuseppe Angelucci in Zaragoza, El Salvador. Then bills jumped to $750, and kept stacking. Today the home owes over $15,000, and water runs only two days a week. 38 elders need your help.",
+        description: "A small nursing home in Zaragoza, El Salvador is paying down a $15,000 water debt from a past billing problem. Community support has covered about $8,000 so far; $7,000 still remains. Help us close the gap for 38 elders.",
         lang_label: "English",
         lang_other: "Español"
       },
@@ -21,7 +21,7 @@
       hero: {
         eyebrow: "Hogar de Ancianos Giuseppe Angelucci · Zaragoza, La Libertad, El Salvador",
         headline: "Thirty-eight elders.\nTwo days of water a week.",
-        subhead: "For decades they paid $9 a month for water. In January 2024 the bill arrived at $750. Then another. And another. Today the debt sits at over $15,000, for water they barely have.",
+        subhead: "A few years ago a sudden change in the home's water billing left a debt of around $15,000. With community support, much of it has already been paid down. About $7,000 still remains to clear.",
         cta_primary: "Donate now",
         cta_secondary: "Read their story"
       },
@@ -41,31 +41,16 @@
       },
       crisis: {
         eyebrow: "What happened",
-        heading: "Stable for ten years. Impossible since January 2024.",
-        intro: "The water utility replaced the home's meter in January 2024. The very next bill was dozens of times higher, and the bills have not stopped climbing since.",
-        body_1: "For more than a decade, the bill was around $9 a month. Then, in January 2024, the water utility replaced the meter. The bills have not stopped climbing since. Today, the home owes more than $15,000.",
-        body_2: "An official inspection in March 2025 confirmed it on paper: water reaches the home only two days a week. Residents bathe with buckets and gallons brought by neighbors. There is no laundry machine, no pool, no irrigation.",
-        body_3: "And yet the bills keep climbing. The most recent invoice alone is over $1,000, for water that, by the utility's own inspection, does not even reach the home most days. Somewhere underground, water appears to be leaving the system before it gets there. The utility insists the home must pay.",
-        body_4: "Most homes in El Salvador pay between $0.21 and $0.30 per cubic meter of water, under residential or bulk-condominium tariffs. The home is billed at $3.40/m³, the commercial maximum tier. That is roughly 15× the rate a typical condominium pays for the same water. A nursing home for thirty-eight elderly people, with water two days a week, is being billed at the same rate as a hotel laundry.",
-        stat_1_value: "$9", stat_1_label: "The historic monthly bill",
-        stat_2_value: "$15,000+", stat_2_label: "Accumulated debt since Jan 2024",
-        stat_3_value: "2", stat_3_label: "Days of water per week",
-        stat_4_value: "38", stat_4_label: "Residents affected",
-        photo_1_caption: "The pila, the home's main water reservoir. Mostly empty.",
-        photo_2_caption: "Buckets and basins used in place of running water.",
-        photo_3_caption: "The water meter being billed against.",
-        chart_title: "What the home has been billed each month",
-        chart_subtitle: "Monthly water bills · Apr 2023 to Nov 2025",
-        chart_stable_label: "Stable for a decade",
-        chart_fair_note: "Dashed line: a fair monthly bill at regular residential use, around $67.",
-        chart_pre_label: "Before the meter change",
-        chart_after_label: "After the meter change",
-        chart_meter_event: "Meter replaced",
-        chart_fair_max: "What a fair monthly maximum would be (~$241)",
-        chart_axis_year_2023: "2023",
-        chart_axis_year_2024: "2024",
-        chart_axis_year_2025: "2025",
-        update_note: "Update: the water utility has agreed to replace the meter again. Bills are expected to come back down to around $20 a month."
+        heading: "A debt from the past, being paid down today.",
+        intro: "A few years ago the home's water bills jumped suddenly, and a debt of around $15,000 built up.",
+        body_1: "For more than a decade, the home's water bill was about $9 a month. Then, a few years back, after a leak and a meter change, the bills jumped to hundreds of dollars a month. The debt grew quickly.",
+        body_2: "Today, after several conversations and the work of a new administration at the water utility, a new arrangement is in place. A new and more accurate meter has been installed, and the most recent monthly bills have come back to around $20, close to what the home used to pay.",
+        body_3: "The $15,000 debt itself still has to be paid. Thanks to donors who have already stepped in, including one who covered an entire year of monthly payments, the community has paid down close to $8,000. About $7,000 still remains.",
+        body_4: "The water reaches the home only two days a week, but that is a regional issue the local authorities are working on and is no longer about the home alone. What we are asking for today is help finishing the debt, so the home can close this chapter and stay focused on caring for thirty-eight elders.",
+        stat_1_value: "$15,000", stat_1_label: "The original debt",
+        stat_2_value: "$8,000", stat_2_label: "Already paid down by donors",
+        stat_3_value: "$7,000", stat_3_label: "Still to raise",
+        stat_4_value: "38", stat_4_label: "Residents at the home"
       },
       place: {
         eyebrow: "The place",
@@ -152,7 +137,7 @@
       },
       share: {
         title: "Zaragoza Home",
-        text: "Thirty-eight elders. Two days of water a week. A $9 monthly bill became a $15,000 debt. Help us turn the water back on.",
+        text: "A small nursing home in El Salvador is paying down a $15,000 water debt. Around $8,000 already covered. $7,000 still to raise. Help 38 elders close this chapter.",
         copied: "Link copied to clipboard"
       }
     },
@@ -160,7 +145,7 @@
     es: {
       meta: {
         title: "Hogar Giuseppe Angelucci, Ayúdanos a devolverles el agua a 38 ancianos",
-        description: "Durante décadas pagaron $9 al mes por el agua en el Hogar de Ancianos Giuseppe Angelucci, en Zaragoza, La Libertad. En enero de 2024 las facturas subieron a $750 y siguieron acumulándose. Hoy la deuda supera los $15,000 y el agua llega solo dos días a la semana. 38 ancianos necesitan tu ayuda.",
+        description: "Un pequeño hogar de ancianos en Zaragoza, El Salvador está pagando una deuda de agua de $15,000 que viene de un problema de facturación del pasado. La comunidad ya ha cubierto cerca de $8,000. Faltan unos $7,000. Ayúdanos a cerrar la brecha para 38 ancianos.",
         lang_label: "Español",
         lang_other: "English"
       },
@@ -171,7 +156,7 @@
       hero: {
         eyebrow: "Hogar de Ancianos Giuseppe Angelucci · Zaragoza, La Libertad, El Salvador",
         headline: "Treinta y ocho ancianos.\nDos días de agua por semana.",
-        subhead: "Durante décadas pagaron $9 al mes por el agua. En enero de 2024 llegó una factura de $750. Luego otra. Y otra. Hoy la deuda supera los $15,000, por un agua que casi no tienen.",
+        subhead: "Hace unos años, un cambio repentino en la facturación del agua dejó al hogar con una deuda de unos $15,000. Gracias al apoyo de la comunidad, gran parte ya se ha pagado. Quedan alrededor de $7,000 por reunir.",
         cta_primary: "Donar ahora",
         cta_secondary: "Leer su historia"
       },
@@ -191,31 +176,16 @@
       },
       crisis: {
         eyebrow: "Lo que pasó",
-        heading: "Estable durante diez años. Imposible desde enero de 2024.",
-        intro: "La empresa de agua reemplazó el medidor del hogar en enero de 2024. La siguiente factura fue decenas de veces más alta, y las facturas no han parado de subir desde entonces.",
-        body_1: "Durante más de una década, la factura rondaba los $9 al mes. Entonces, en enero de 2024, la empresa de agua reemplazó el medidor. Las facturas no han parado de subir desde entonces. Hoy el hogar debe más de $15,000.",
-        body_2: "Una inspección oficial en marzo de 2025 confirmó por escrito que el agua llega al hogar solo dos días por semana. Los residentes se bañan con cubetas y galones que traen los vecinos. No hay lavadora, ni piscina, ni riego.",
-        body_3: "Y aun así las facturas siguen subiendo. La última factura sola supera los $1,000, por un agua que, según la inspección de la propia empresa, ni siquiera llega al hogar la mayoría de los días. En algún punto bajo tierra, el agua se está escapando antes de llegar al lugar. La empresa insiste en que el hogar debe pagar.",
-        body_4: "La mayoría de los hogares en El Salvador paga entre $0.21 y $0.30 por metro cúbico de agua, bajo tarifas residenciales o de condominio en bloque. Al hogar le cobran $3.40/m³, el tope de la tarifa comercial. Eso es aproximadamente 15× la tarifa que paga un condominio típico por la misma agua. Un asilo para treinta y ocho ancianos, con agua dos días a la semana, está siendo facturado a la misma tarifa que la lavandería de un hotel.",
-        stat_1_value: "$9", stat_1_label: "La factura mensual histórica",
-        stat_2_value: "$15,000+", stat_2_label: "Deuda acumulada desde ene-2024",
-        stat_3_value: "2", stat_3_label: "Días de agua por semana",
-        stat_4_value: "38", stat_4_label: "Residentes afectados",
-        photo_1_caption: "La pila, el principal depósito de agua del hogar. Casi siempre vacía.",
-        photo_2_caption: "Cubetas y guacales que reemplazan al agua corriente.",
-        photo_3_caption: "El medidor de agua sobre el que se cobra esta deuda.",
-        chart_title: "Lo que se le ha facturado al hogar cada mes",
-        chart_subtitle: "Facturas mensuales de agua · Abr 2023 a Nov 2025",
-        chart_stable_label: "Estable durante una década",
-        chart_fair_note: "Línea punteada: una factura mensual justa al uso residencial regular, alrededor de $67.",
-        chart_pre_label: "Antes del cambio de medidor",
-        chart_after_label: "Después del cambio de medidor",
-        chart_meter_event: "Medidor reemplazado",
-        chart_fair_max: "Lo que sería un máximo mensual justo (~$241)",
-        chart_axis_year_2023: "2023",
-        chart_axis_year_2024: "2024",
-        chart_axis_year_2025: "2025",
-        update_note: "Actualización: la empresa de agua ha aceptado reemplazar el medidor nuevamente. Se espera que las facturas bajen a alrededor de $20 al mes."
+        heading: "Una deuda del pasado, que se está pagando hoy.",
+        intro: "Hace unos años las facturas de agua del hogar se dispararon de repente, y se acumuló una deuda de alrededor de $15,000.",
+        body_1: "Durante más de una década, la factura de agua del hogar fue de unos $9 al mes. Luego, hace unos años, tras una fuga y un cambio de medidor, las facturas saltaron a cientos de dólares al mes. La deuda creció rápido.",
+        body_2: "Hoy, tras varias conversaciones y el trabajo de una nueva administración en la empresa de agua, hay un nuevo acuerdo en marcha. Se instaló un nuevo medidor más preciso, y las facturas mensuales recientes han bajado a unos $20, cerca de lo que el hogar pagaba antes.",
+        body_3: "La deuda de $15,000 aún hay que pagarla. Gracias a donantes que ya se han sumado, incluyendo a una persona que cubrió un año entero de pagos mensuales, la comunidad ya ha pagado cerca de $8,000. Quedan alrededor de $7,000.",
+        body_4: "El agua llega al hogar solo dos días por semana, pero es un tema de la red que las autoridades locales ya están trabajando y que va más allá del hogar. Lo que pedimos hoy es ayuda para terminar de pagar la deuda, para que el hogar pueda cerrar este capítulo y seguir enfocado en cuidar a treinta y ocho ancianos.",
+        stat_1_value: "$15,000", stat_1_label: "La deuda original",
+        stat_2_value: "$8,000", stat_2_label: "Ya pagado por donantes",
+        stat_3_value: "$7,000", stat_3_label: "Falta por reunir",
+        stat_4_value: "38", stat_4_label: "Residentes del hogar"
       },
       place: {
         eyebrow: "El lugar",
@@ -302,7 +272,7 @@
       },
       share: {
         title: "Hogar de Ancianos Giuseppe Angelucci",
-        text: "Treinta y ocho ancianos. Dos días de agua por semana. Una factura de $9 al mes se convirtió en una deuda de $15,000. Ayúdanos a abrir el grifo de nuevo.",
+        text: "Un pequeño hogar de ancianos en El Salvador está pagando una deuda de agua de $15,000. Ya se han cubierto cerca de $8,000. Faltan $7,000. Ayúdanos a cerrar este capítulo para 38 ancianos.",
         copied: "Enlace copiado al portapapeles"
       }
     }
