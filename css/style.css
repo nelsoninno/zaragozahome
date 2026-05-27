@@ -1413,3 +1413,40 @@ body.lightbox-open { overflow: hidden; }
   line-height: 1.5;
   color: var(--c-cream-100);
 }
+
+/* ---- v9: Made with love by EKY ---- */
+.footer-made-with-love {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(253, 250, 245, 0.08);
+  text-decoration: none;
+  color: var(--c-cream-300);
+  transition: color var(--transition), transform var(--transition);
+}
+.footer-made-with-love:hover {
+  color: var(--c-cream-100);
+  transform: translateY(-1px);
+}
+.footer-made-with-love-text {
+  font-size: 12px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer-made-with-love picture,
+.footer-made-with-love img {
+  display: block;
+  height: 32px;
+  width: auto;
+}
+@media (max-width: 600px) {
+  .footer-made-with-love { flex-direction: column; gap: 6px; }
+  .footer-made-with-love img { height: 28px; }
+}
+/* Push the © credits below the EKY line */
+.footer-credits { grid-column: 1 / -1; margin-top: 14px; padding-top: 0; border-top: none; }

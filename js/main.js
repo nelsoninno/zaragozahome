@@ -260,6 +260,8 @@
         follow_heading: "Sigue la historia",
         follow_facebook: "Facebook",
         credits: "© 2026 Asociación Gente Ayudando Gente · Hogar de Ancianos Giuseppe Angelucci",
+        made_with_love: "Hecho con cariño por",
+        eky_url: "https://everybodyknowsyou.com/es",
         brand_title: "Hogar Zaragoza",
         brand_sub: "Hogar Giuseppe Angelucci · El Salvador"
       },
