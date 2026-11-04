@@ -1450,3 +1450,186 @@ body.lightbox-open { overflow: hidden; }
 }
 /* Push the © credits below the EKY line */
 .footer-credits { grid-column: 1 / -1; margin-top: 14px; padding-top: 0; border-top: none; }
+
+/* ================================================================
+   Christmas 2026: homepage band + /christmas/ page
+   ================================================================ */
+:root {
+  --xmas-green: #1d3a2b;
+  --xmas-green-deep: #10231a;
+  --xmas-red: #b3261e;
+}
+
+/* Snow */
+.snow-canvas { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+.snow-canvas--fixed { position: fixed; z-index: 45; }
+
+/* Twinkling string lights */
+.xmas-lights {
+  position: absolute; left: 0; right: 0; top: 0; height: 34px;
+  display: flex; justify-content: space-around; align-items: flex-start;
+  pointer-events: none; z-index: 2;
+  background: radial-gradient(ellipse 60% 22px at 50% 0, transparent 70%, rgba(0,0,0,0) 71%);
+}
+.xmas-lights::before {
+  content: ''; position: absolute; left: 0; right: 0; top: 6px; height: 2px;
+  background: rgba(20, 30, 20, 0.55);
+}
+.xmas-lights span {
+  position: relative; top: 6px; width: 11px; height: 17px;
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  background: #e8c46b; box-shadow: 0 4px 14px 2px rgba(232,196,107,0.7);
+  animation: twinkle 1.8s ease-in-out infinite;
+}
+.xmas-lights span::before {
+  content: ''; position: absolute; top: -4px; left: 2px; width: 7px; height: 5px;
+  background: #3b3b3b; border-radius: 2px;
+}
+.xmas-lights span:nth-child(4n+1) { background: #e84a3c; box-shadow: 0 4px 14px 2px rgba(232,74,60,0.7); animation-delay: .2s; }
+.xmas-lights span:nth-child(4n+2) { background: #5fd38d; box-shadow: 0 4px 14px 2px rgba(95,211,141,0.7); animation-delay: .7s; }
+.xmas-lights span:nth-child(4n+3) { background: #6cb8ff; box-shadow: 0 4px 14px 2px rgba(108,184,255,0.7); animation-delay: 1.1s; }
+.xmas-lights--bottom { top: auto; bottom: 6px; }
+@keyframes twinkle { 0%,100% { opacity: 1; } 50% { opacity: .35; box-shadow: none; } }
+
+/* Candy-cane divider */
+.xmas-stripe {
+  height: 10px;
+  background: repeating-linear-gradient(-45deg, var(--xmas-red) 0 14px, var(--c-cream-50) 14px 28px);
+}
+
+/* Glowing, shining Christmas button */
+.btn-xmas {
+  position: relative; overflow: hidden;
+  background: linear-gradient(135deg, #d63a2c, var(--xmas-red));
+  color: #fff; border: 1px solid rgba(255,255,255,0.25);
+  animation: xmasGlow 2.4s ease-in-out infinite;
+}
+.btn-xmas:hover, .btn-xmas:focus-visible { color: #fff; transform: translateY(-2px) scale(1.02); }
+.btn-xmas::after {
+  content: ''; position: absolute; top: 0; left: -60%; width: 40%; height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.55), transparent);
+  transform: skewX(-20deg); animation: shine 3.2s ease-in-out infinite;
+}
+@keyframes xmasGlow {
+  0%,100% { box-shadow: 0 0 0 0 rgba(212,160,74,0.0), 0 6px 18px rgba(0,0,0,0.25); }
+  50%     { box-shadow: 0 0 0 6px rgba(212,160,74,0.28), 0 6px 22px rgba(0,0,0,0.3); }
+}
+@keyframes shine { 0% { left: -60%; } 55%,100% { left: 130%; } }
+
+/* Swinging ornament */
+.xmas-ornament {
+  position: absolute; width: 46px; height: 46px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ff8a7a, var(--xmas-red) 55%, #6e140f);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  transform-origin: 50% -40px; animation: swing 3s ease-in-out infinite; z-index: 3;
+}
+.xmas-ornament::before {
+  content: ''; position: absolute; left: 50%; top: -40px; width: 2px; height: 34px;
+  background: #d4a04a; transform: translateX(-50%);
+}
+.xmas-ornament::after {
+  content: ''; position: absolute; left: 50%; top: -8px; width: 14px; height: 9px;
+  background: #d4a04a; border-radius: 3px; transform: translateX(-50%);
+}
+.xmas-ornament--gold { background: radial-gradient(circle at 35% 30%, #fff1c4, #d4a04a 55%, #7a5718); animation-delay: -1.2s; }
+@keyframes swing { 0%,100% { transform: rotate(7deg); } 50% { transform: rotate(-7deg); } }
+
+.xmas-eyebrow { color: #e8c46b; }
+.xmas-eyebrow::before { content: '\2744\FE0E  '; }
+
+/* ---------- Homepage band ---------- */
+.xmas-band {
+  position: relative; overflow: hidden;
+  padding: 96px 0 90px;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(212,160,74,0.18), transparent 45%),
+    linear-gradient(160deg, var(--xmas-green), var(--xmas-green-deep));
+  color: var(--c-cream-50);
+}
+.xmas-band-inner {
+  position: relative; z-index: 2;
+  display: grid; grid-template-columns: 1fr; gap: 44px; align-items: center;
+}
+@media (min-width: 880px) { .xmas-band-inner { grid-template-columns: 1.15fr 0.85fr; gap: 64px; } }
+.xmas-band .section-heading { margin-bottom: 18px; }
+.xmas-band-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 26px; }
+.xmas-price-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 16px; border-radius: var(--radius-pill);
+  border: 1px dashed rgba(232,196,107,0.6); color: var(--c-cream-100); font-size: 14px;
+}
+.xmas-price-chip strong { color: #e8c46b; font-family: var(--font-serif); font-size: 1.25rem; }
+.xmas-band-photo {
+  position: relative; display: block; border-radius: var(--radius-lg);
+  border: 6px solid rgba(253,250,245,0.92); box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+  transform: rotate(2deg); transition: transform var(--transition-slow);
+}
+.xmas-band-photo:hover { transform: rotate(0deg) scale(1.02); }
+.xmas-band-photo img { display: block; width: 100%; aspect-ratio: 4 / 4.4; object-fit: cover; border-radius: 14px; }
+.xmas-band-photo .xmas-ornament { top: -6px; right: 22px; }
+.xmas-band-photo .xmas-ornament--gold { right: auto; left: 26px; top: 10px; width: 34px; height: 34px; }
+
+/* ---------- /christmas/ page ---------- */
+.xmas-hero {
+  position: relative; overflow: hidden;
+  margin-top: -110px; padding: 170px 0 110px;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(212,160,74,0.2), transparent 45%),
+    linear-gradient(160deg, var(--xmas-green), var(--xmas-green-deep));
+  color: var(--c-cream-50);
+}
+.xmas-hero .two-col { position: relative; z-index: 2; }
+.xmas-hero .hero-headline { font-size: clamp(2.3rem, 5.6vw, 4.4rem); }
+.xmas-hero .hero-cta .btn-ghost { color: var(--c-cream-50); border-color: rgba(253,250,245,0.55); }
+.xmas-hero .hero-cta .btn-ghost:hover { background: rgba(253,250,245,0.12); color: #fff; }
+.xmas-hero-figure {
+  position: relative; margin: 0; border-radius: var(--radius-lg);
+  border: 7px solid rgba(253,250,245,0.95); box-shadow: 0 28px 70px rgba(0,0,0,0.5);
+  transform: rotate(-1.5deg);
+}
+.xmas-hero-figure img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 14px; }
+.xmas-hero-figure figcaption {
+  position: absolute; left: 12px; right: 12px; bottom: 12px; padding: 10px 14px;
+  background: rgba(16,35,26,0.78); backdrop-filter: blur(4px); border-radius: 10px;
+  font-size: 13px; font-style: italic; color: var(--c-cream-100);
+}
+.xmas-hero-figure .xmas-ornament { top: -12px; left: 24px; }
+.xmas-hero-figure .xmas-ornament--gold { left: auto; right: 30px; top: -4px; width: 36px; height: 36px; }
+
+.xmas-page .site-header.is-scrolled .brand-logo img { filter: none; }
+
+.xmas-price { text-align: center; }
+.xmas-price-value {
+  display: block; font-family: var(--font-serif); font-weight: 800;
+  font-size: clamp(4.5rem, 12vw, 8rem); line-height: 1; color: var(--xmas-red);
+  text-shadow: 0 6px 0 rgba(212,160,74,0.25);
+}
+.xmas-price-label { display: block; margin: 10px 0 18px; font-family: var(--font-serif); font-size: 1.5rem; color: var(--c-ink-900); }
+.xmas-price .section-lede { margin: 0 auto 28px; }
+
+.xmas-needs { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 680px) { .xmas-needs { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .xmas-needs { grid-template-columns: repeat(3, 1fr); gap: 22px; } }
+.xmas-need { border-top: 4px solid var(--xmas-red); }
+.xmas-need:nth-child(even) { border-top-color: var(--xmas-green); }
+.xmas-need .card-icon { font-size: 26px; background: #fbe9e7; }
+.xmas-need:nth-child(even) .card-icon { background: #e3efe8; }
+
+.xmas-moments { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 760px) { .xmas-moments { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+.xmas-moments .place-photo { aspect-ratio: 4 / 5; }
+.xmas-moments .place-photo:nth-child(2) { transform: translateY(18px); }
+
+.xmas-ref-value {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-weight: 700; color: var(--c-gold); letter-spacing: 0.06em;
+}
+.xmas-ref-note { font-size: 13px; color: var(--c-cream-200); margin: 4px 0 0; }
+.xmas-thanks {
+  max-width: 640px; margin: 36px auto 0; text-align: center;
+  font-family: var(--font-serif); font-size: 1.2rem; color: var(--c-cream-100);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xmas-lights span, .btn-xmas, .btn-xmas::after, .xmas-ornament { animation: none !important; }
+}

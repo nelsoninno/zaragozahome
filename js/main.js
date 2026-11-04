@@ -116,6 +116,8 @@
         international_status: "We are finalizing these. Check back in a few days, or message Carolina on WhatsApp and we'll guide you."
       },
       footer: {
+        made_with_love: "Made with love by",
+        eky_url: "https://everybodyknowsyou.com",
         tagline: "Help us bring water, and dignity, back to thirty-eight elders in Zaragoza, El Salvador.",
         contact_heading: "Contact",
         contact_whatsapp_label: "WhatsApp · Carolina García",
@@ -134,6 +136,44 @@
         close_lightbox: "Close",
         prev_image: "Previous",
         next_image: "Next"
+      },
+      xmas: {
+        meta_title: "Christmas at Zaragoza Home, give an elder a Christmas lunch",
+        meta_description: "On Wednesday, December 2, 2026, Zaragoza Home in El Salvador celebrates Christmas with its elders. $20 provides a Christmas lunch for one elder. Help with the meal, Santa's visit, the cake and a gift for every resident.",
+        back: "Back to Zaragoza Home", nav_plan: "The plan", nav_moments: "Moments",
+        eyebrow: "Christmas 2026 · Wednesday, December 2",
+        headline: "A Christmas to remember\nfor our elders.",
+        subhead: "Most residents of Zaragoza Home will not get a visit from family this Christmas. Together we can give them a festive lunch, a visit from Santa, and a gift with their name on it.",
+        cta_primary: "Give $20 now", cta_secondary: "See the plan",
+        photo_caption: "Christmas lunch at the long table, one of the happiest days of the year.",
+        price_eyebrow: "The simplest way to help",
+        price_label: "provides a Christmas lunch for one elder",
+        price_body: "Give once for one elder, or as many times as you like. Every gift goes to the party: the meal, the cake, Santa's visit, and a present for everyone.",
+        needs_eyebrow: "The plan", needs_heading: "What the party needs",
+        needs_body: "Here is everything we hope to bring to the home on Wednesday, December 2. Your donation helps cover all of it.",
+        need_1_title: "A Pollo Campero meal", need_1_body: "A real Christmas lunch for every member of Zaragoza Home, residents and staff.",
+        need_2_title: "A visit from Santa Claus", need_2_body: "Santa comes to celebrate, laugh and greet everyone at the table.",
+        need_3_title: "Coca-Cola and refreshments", need_3_body: "Cold drinks to share around the long table.",
+        need_4_title: "A Christmas cake", need_4_body: "Something sweet to close the celebration together.",
+        need_5_title: "Plates and napkins", need_5_body: "The small things that turn a table into a feast.",
+        need_6_title: "A gift for everyone", need_6_body: "An individual present for every member of the home. For many, the only gift they will open this year.",
+        moments_eyebrow: "Moments like these", moments_heading: "Why this day matters",
+        moments_body: "A shared meal, a long hug, someone who came just for them. For elders with no family visits, Christmas at the home is the celebration.",
+        cap_hug: "A long hug between a resident and a visitor.",
+        cap_team: "Part of the team that cares for the residents every day.",
+        donate_eyebrow: "Give now", donate_heading: "Help make December 2 special",
+        donate_body: "Donations go through Asociación Gente Ayudando Gente, the local nonprofit that supports the home.",
+        reference_label: "Transfer reference", reference_value: "Navidad",
+        reference_note: "Please write Navidad in your transfer so we know it is for the party.",
+        intl_title: "Giving from abroad",
+        intl_body: "Message Carolina on WhatsApp and we will help you give from anywhere in the world.",
+        thanks: "We will share photos and videos from the party with everyone who helped. Thank you for making Christmas possible."
+      },
+      xmas_banner: {
+        eyebrow: "Christmas 2026 · Wednesday, December 2",
+        heading: "Christmas is coming to Zaragoza Home",
+        body: "A festive lunch, a visit from Santa, and a gift for every elder. Most of them will not see family this year. You can be the reason they celebrate.",
+        cta: "See the Christmas plan", chip: "= one Christmas lunch"
       },
       share: {
         title: "Zaragoza Home",
@@ -271,6 +311,44 @@
         close_lightbox: "Cerrar",
         prev_image: "Anterior",
         next_image: "Siguiente"
+      },
+      xmas: {
+        meta_title: "Navidad en Zaragoza Home, regala un almuerzo navideño a un anciano",
+        meta_description: "El miércoles 2 de diciembre de 2026, Zaragoza Home en El Salvador celebra la Navidad con sus ancianos. $20 cubren el almuerzo navideño de un anciano. Ayuda con la comida, la visita de Santa, el pastel y un regalo para cada residente.",
+        back: "Volver a Zaragoza Home", nav_plan: "El plan", nav_moments: "Momentos",
+        eyebrow: "Navidad 2026 · Miércoles 2 de diciembre",
+        headline: "Una Navidad inolvidable\npara nuestros ancianos.",
+        subhead: "La mayoría de los residentes de Zaragoza Home no recibirá visita de su familia esta Navidad. Juntos podemos regalarles un almuerzo de fiesta, una visita de Santa y un regalo con su nombre.",
+        cta_primary: "Donar $20 ahora", cta_secondary: "Ver el plan",
+        photo_caption: "El almuerzo navideño en la mesa larga, uno de los días más felices del año.",
+        price_eyebrow: "La forma más sencilla de ayudar",
+        price_label: "cubren el almuerzo navideño de un anciano",
+        price_body: "Dona una vez por un anciano, o tantas veces como quieras. Todo va para la fiesta: la comida, el pastel, la visita de Santa y un regalo para cada uno.",
+        needs_eyebrow: "El plan", needs_heading: "Lo que necesita la fiesta",
+        needs_body: "Esto es todo lo que queremos llevar al hogar el miércoles 2 de diciembre. Tu donación ayuda a cubrirlo todo.",
+        need_1_title: "Comida de Pollo Campero", need_1_body: "Un verdadero almuerzo navideño para cada miembro de Zaragoza Home, residentes y equipo.",
+        need_2_title: "La visita de Santa Claus", need_2_body: "Santa viene a celebrar, reír y saludar a todos en la mesa.",
+        need_3_title: "Coca-Cola y refrescos", need_3_body: "Bebidas frías para compartir en la mesa larga.",
+        need_4_title: "Un pastel navideño", need_4_body: "Algo dulce para cerrar la celebración juntos.",
+        need_5_title: "Platos y servilletas", need_5_body: "Los pequeños detalles que convierten una mesa en un banquete.",
+        need_6_title: "Un regalo para cada uno", need_6_body: "Un regalo individual para cada miembro del hogar. Para muchos, el único que abrirán este año.",
+        moments_eyebrow: "Momentos como estos", moments_heading: "Por qué este día importa",
+        moments_body: "Una comida compartida, un abrazo largo, alguien que vino solo por ellos. Para los ancianos que no reciben visitas, la Navidad en el hogar es la celebración.",
+        cap_hug: "Un abrazo largo entre una residente y una visitante.",
+        cap_team: "Parte del equipo que cuida a los residentes todos los días.",
+        donate_eyebrow: "Dona ahora", donate_heading: "Ayúdanos a hacer especial el 2 de diciembre",
+        donate_body: "Las donaciones se reciben a través de la Asociación Gente Ayudando Gente, la organización local que apoya al hogar.",
+        reference_label: "Concepto de la transferencia", reference_value: "Navidad",
+        reference_note: "Por favor escribe Navidad en el concepto para saber que es para la fiesta.",
+        intl_title: "Donar desde el extranjero",
+        intl_body: "Escríbele a Carolina por WhatsApp y te ayudamos a donar desde cualquier parte del mundo.",
+        thanks: "Compartiremos fotos y videos de la fiesta con todos los que ayudaron. Gracias por hacer posible la Navidad."
+      },
+      xmas_banner: {
+        eyebrow: "Navidad 2026 · Miércoles 2 de diciembre",
+        heading: "La Navidad llega a Zaragoza Home",
+        body: "Un almuerzo de fiesta, la visita de Santa y un regalo para cada anciano. La mayoría no verá a su familia este año. Tú puedes ser la razón de su celebración.",
+        cta: "Ver el plan de Navidad", chip: "= un almuerzo navideño"
       },
       share: {
         title: "Hogar de Ancianos Giuseppe Angelucci",
@@ -614,6 +692,54 @@
   }
 
 
+  /* ---- Christmas: snowfall on any element with [data-snow] ---- */
+  function initSnow() {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.querySelectorAll('[data-snow]').forEach(function (host) {
+      const fixed = host === document.body;
+      const c = document.createElement('canvas');
+      c.className = 'snow-canvas' + (fixed ? ' snow-canvas--fixed' : '');
+      c.setAttribute('aria-hidden', 'true');
+      host.appendChild(c);
+      const ctx = c.getContext('2d');
+      let w = 0, h = 0, flakes = [], visible = true;
+      function mk(init) {
+        return { x: Math.random() * w, y: init ? Math.random() * h : -8,
+                 r: Math.random() * 2.4 + 0.8, s: Math.random() * 0.6 + 0.35,
+                 d: Math.random() * 6.283, o: Math.random() * 0.45 + 0.45 };
+      }
+      function size() {
+        const r = fixed ? { width: window.innerWidth, height: window.innerHeight } : host.getBoundingClientRect();
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        w = r.width; h = r.height;
+        c.width = w * dpr; c.height = h * dpr;
+        c.style.width = w + 'px'; c.style.height = h + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const n = Math.max(25, Math.min(fixed ? 90 : 120, Math.round(w * h / (fixed ? 14000 : 7000))));
+        flakes = Array.from({ length: n }, function () { return mk(true); });
+      }
+      if (!fixed && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (e) { visible = e[0].isIntersecting; }).observe(host);
+      }
+      function tick() {
+        if (visible) {
+          ctx.clearRect(0, 0, w, h);
+          ctx.fillStyle = '#ffffff';
+          flakes.forEach(function (f) {
+            f.y += f.s; f.d += 0.012; f.x += Math.sin(f.d) * 0.45;
+            if (f.y > h + 6) Object.assign(f, mk(false));
+            ctx.globalAlpha = f.o;
+            ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, 6.283); ctx.fill();
+          });
+        }
+        window.requestAnimationFrame(tick);
+      }
+      size();
+      window.addEventListener('resize', size);
+      tick();
+    });
+  }
+
   function boot() {
     applyLang(detectInitialLang());
     initLangToggle();
@@ -622,6 +748,7 @@
     initShare();
     initVideo();
     initLightbox();
+    initSnow();
     buildCrisisChart();
     initHeaderScroll();
   }
