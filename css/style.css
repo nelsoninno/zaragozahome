@@ -1665,3 +1665,9 @@ body.lightbox-open { overflow: hidden; }
 .xmas-band-round .xmas-ornament--gold { right: auto; left: 8%; top: 40px; width: 34px; height: 34px; }
 @keyframes xmasFloat { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-10px) rotate(1deg); } }
 @media (prefers-reduced-motion: reduce) { .xmas-band-round { animation: none; } }
+
+/* ---- Header overlays the hero (fixes cream strip above the photo) ---- */
+.site-header { position: fixed; top: 0; left: 0; right: 0; }
+.hero { margin-top: 0; padding-top: 0; }
+.xmas-hero { margin-top: 0; }
+section[id] { scroll-margin-top: 96px; }
