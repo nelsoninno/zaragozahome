@@ -96,6 +96,11 @@
         card_3_cta_whatsapp: "WhatsApp Carolina"
       },
       donate_section: {
+        receipt_label: "After you transfer",
+        receipt_note: "Important: please send us a screenshot of your transfer receipt. It is how the association keeps track of every donation, and how we know who to thank.",
+        receipt_btn: "Send screenshot on WhatsApp",
+        receipt_or: "or by email:",
+        receipt_href: "https://wa.me/50374570984?text=Hi%21%20I%20just%20made%20a%20donation%20to%20Zaragoza%20Home.%20Here%20is%20the%20screenshot%20of%20my%20transfer%20receipt%3A",
         eyebrow: "The goal",
         heading: "Turn the water back on",
         body: "100% of donations go directly to the home and its residents. The local nonprofit Asociación Gente Ayudando Gente receives funds on behalf of the home.",
@@ -138,6 +143,7 @@
         next_image: "Next"
       },
       xmas: {
+        receipt_href: "https://wa.me/50374570984?text=Hi%21%20I%20just%20made%20a%20donation%20for%20the%20Zaragoza%20Home%20Christmas%20party%20%28Navidad%29.%20Here%20is%20the%20screenshot%20of%20my%20transfer%20receipt%3A",
         meta_title: "Christmas at Zaragoza Home, give an elder a Christmas lunch",
         meta_description: "On Wednesday, December 2, 2026, Zaragoza Home in El Salvador celebrates Christmas with its elders. $20 provides a Christmas lunch for one elder. Help with the meal, Santa's visit, the cake and a gift for every resident.",
         back: "Back to Zaragoza Home", nav_plan: "The plan", nav_moments: "Moments",
@@ -271,6 +277,11 @@
         card_3_cta_whatsapp: "Escribir a Carolina"
       },
       donate_section: {
+        receipt_label: "Después de transferir",
+        receipt_note: "Importante: por favor envíanos una captura del comprobante de tu transferencia. Así la asociación lleva el control de cada donación y sabemos a quién agradecer.",
+        receipt_btn: "Enviar captura por WhatsApp",
+        receipt_or: "o por correo:",
+        receipt_href: "https://wa.me/50374570984?text=%C2%A1Hola%21%20Acabo%20de%20hacer%20una%20donaci%C3%B3n%20a%20Zaragoza%20Home.%20Aqu%C3%AD%20est%C3%A1%20la%20captura%20del%20comprobante%20de%20mi%20transferencia%3A",
         eyebrow: "La meta",
         heading: "Vuelve a abrir el agua",
         body: "El 100% de las donaciones llega directo al hogar y a sus residentes. La asociación local Gente Ayudando Gente recibe los fondos en nombre del hogar.",
@@ -313,6 +324,7 @@
         next_image: "Siguiente"
       },
       xmas: {
+        receipt_href: "https://wa.me/50374570984?text=%C2%A1Hola%21%20Acabo%20de%20donar%20para%20la%20fiesta%20de%20Navidad%20de%20Zaragoza%20Home.%20Aqu%C3%AD%20est%C3%A1%20la%20captura%20del%20comprobante%20de%20mi%20transferencia%3A",
         meta_title: "Navidad en Zaragoza Home, regala un almuerzo navideño a un anciano",
         meta_description: "El miércoles 2 de diciembre de 2026, Zaragoza Home en El Salvador celebra la Navidad con sus ancianos. $20 cubren el almuerzo navideño de un anciano. Ayuda con la comida, la visita de Santa, el pastel y un regalo para cada residente.",
         back: "Volver a Zaragoza Home", nav_plan: "El plan", nav_moments: "Momentos",

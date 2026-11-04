@@ -69,7 +69,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/style.css?v=13" />
+  <link rel="stylesheet" href="css/style.css?v=14" />
 </head>
 <body>
 
@@ -451,8 +451,12 @@ Two days of water a week.</h1>
                 <span class="bank-account-number" data-i18n="donate_section.local_account_value">010-301-00-005590-0</span>
                 <button type="button" class="btn btn-light btn-sm copy-account" data-copy-value="010-301-00-005590-0" data-i18n="donate_section.local_copy">Copy account number</button>
               </dd>
-              <dt data-i18n="donate_section.local_email_label">Confirm transfer to</dt>
-              <dd><a href="mailto:contactogenteayudandogente@gmail.com" data-i18n="donate_section.local_email_value">contactogenteayudandogente@gmail.com</a></dd>
+              <dt data-i18n="donate_section.receipt_label">After you transfer</dt>
+              <dd class="receipt-step">
+                <p class="receipt-note" data-i18n="donate_section.receipt_note">Important: please send us a screenshot of your transfer receipt.</p>
+                <a class="btn btn-light btn-sm receipt-btn" href="https://wa.me/50374570984?text=Hi%21%20I%20just%20made%20a%20donation%20to%20Zaragoza%20Home.%20Here%20is%20the%20screenshot%20of%20my%20transfer%20receipt%3A" data-i18n-attr="href:donate_section.receipt_href" target="_blank" rel="noopener"><span data-i18n="donate_section.receipt_btn">Send screenshot on WhatsApp</span></a>
+                <p class="receipt-alt"><span data-i18n="donate_section.receipt_or">or by email:</span> <a href="mailto:contactogenteayudandogente@gmail.com">contactogenteayudandogente@gmail.com</a></p>
+              </dd>
             </dl>
           </div>
 
@@ -520,6 +524,6 @@ Two days of water a week.</h1>
     </div>
   </div>
 
-  <script src="js/main.js?v=13"></script>
+  <script src="js/main.js?v=14"></script>
 </body>
 </html>

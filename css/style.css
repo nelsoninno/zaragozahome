@@ -1633,3 +1633,13 @@ body.lightbox-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .xmas-lights span, .btn-xmas, .btn-xmas::after, .xmas-ornament { animation: none !important; }
 }
+
+/* ---- Receipt / screenshot step in donate boxes ---- */
+.receipt-step { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.receipt-note {
+  margin: 0; padding: 10px 14px; border-radius: var(--radius-sm);
+  background: rgba(212,160,74,0.16); border-left: 3px solid var(--c-gold);
+  font-size: 14px; line-height: 1.45; color: var(--c-cream-50);
+}
+.receipt-alt { margin: 0; font-size: 13px; color: var(--c-cream-200); }
+.receipt-alt a { color: var(--c-cream-50); text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
